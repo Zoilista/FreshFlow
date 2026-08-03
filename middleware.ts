@@ -34,7 +34,8 @@ export async function middleware(request: NextRequest) {
   const isPublicRoute =
     request.nextUrl.pathname === '/' ||
     request.nextUrl.pathname.startsWith('/login') ||
-    request.nextUrl.pathname.startsWith('/register')
+    request.nextUrl.pathname.startsWith('/register') ||
+    request.nextUrl.pathname.startsWith('/api/')
 
   if (!user && !isPublicRoute) {
     const url = request.nextUrl.clone()
@@ -58,12 +59,13 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     /*
-     * Match all request paths except for the ones starting with:
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * Feel free to modify this pattern to include more paths.
+     * Match all request paths except:
+     * - _next/static  (static files)
+     * - _next/image   (image optimisation)
+     * - favicon.ico
+     * - api/*         (API routes — handled by route.ts files directly)
+     * - static assets (svg, png, jpg, …)
      */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    '/((?!_next/static|_next/image|favicon.ico|api/|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
   ],
 }

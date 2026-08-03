@@ -1,0 +1,2 @@
+// Forecast types
+export {};

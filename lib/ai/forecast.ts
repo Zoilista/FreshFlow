@@ -1,0 +1,2 @@
+// AI Forecast placeholder
+export {};

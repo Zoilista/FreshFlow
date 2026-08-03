@@ -1,0 +1,2 @@
+// Database lib placeholder
+export {};

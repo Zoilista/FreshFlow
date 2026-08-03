@@ -1,21 +1,43 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { useUser } from '@/lib/hooks/useUser';
+import { createClient } from '@/lib/supabase/client';
 
-// ─── Types ────────────────────────────────────────────────────────────────────────
+// ─── Types ────────────────────────────────────────────────────────────────────
+interface ProfileFormData {
+  full_name:     string;
+  business_name: string;
+  business_type: string;
+  city:          string;
+  country:       string;
+  email:         string;
+}
+
+const EMPTY_FORM: ProfileFormData = {
+  full_name:     '',
+  business_name: '',
+  business_type: 'Independent Retailer',
+  city:          '',
+  country:       '',
+  email:         '',
+};
+
 interface ProfileField {
   label: string;
-  key: keyof ProfileData;
+  key:   keyof ProfileFormData;
+  type?: string;
 }
 
-interface ProfileData {
-  businessName: string;
-  businessType: string;
-  city: string;
-  country: string;
-  email: string;
-}
+const PROFILE_FIELDS: ProfileField[] = [
+  { label: 'Full Name',      key: 'full_name'     },
+  { label: 'Business Name',  key: 'business_name' },
+  { label: 'Business Type',  key: 'business_type' },
+  { label: 'City',           key: 'city'          },
+  { label: 'Country',        key: 'country'       },
+  { label: 'Contact Email',  key: 'email',  type: 'email' },
+];
 
 type ToggleKey =
   | 'highRiskAlerts'
@@ -24,35 +46,18 @@ type ToggleKey =
   | 'leaderboardUpdates'
   | 'competitionReminders';
 
-type Currency = 'EUR' | 'GBP' | 'USD';
+type Currency       = 'EUR' | 'GBP' | 'USD';
 type ForecastPeriod = '1 day' | '3 days' | '7 days' | '14 days';
 
-// ─── Initial State ────────────────────────────────────────────────────────────────
-const DEFAULT_PROFILE: ProfileData = {
-  businessName: 'Green Valley Market',
-  businessType: 'Independent Retailer',
-  city: 'Amsterdam',
-  country: 'Netherlands',
-  email: 'contact@greenvalley.nl',
-};
-
-const PROFILE_FIELDS: ProfileField[] = [
-  { label: 'Business Name', key: 'businessName' },
-  { label: 'Business Type', key: 'businessType' },
-  { label: 'City',          key: 'city'          },
-  { label: 'Country',       key: 'country'       },
-  { label: 'Contact Email', key: 'email'         },
-];
-
 const TOGGLE_ITEMS: { key: ToggleKey; label: string }[] = [
-  { key: 'highRiskAlerts',       label: 'Email alerts for high-risk surplus items'  },
-  { key: 'weeklySummary',        label: 'Weekly impact summary email'                },
-  { key: 'buyerResponses',       label: 'New buyer response notifications'           },
-  { key: 'leaderboardUpdates',   label: 'Leaderboard ranking updates'               },
-  { key: 'competitionReminders', label: 'Monthly competition reminders'             },
+  { key: 'highRiskAlerts',       label: 'Email alerts for high-risk surplus items' },
+  { key: 'weeklySummary',        label: 'Weekly impact summary email'               },
+  { key: 'buyerResponses',       label: 'New buyer response notifications'          },
+  { key: 'leaderboardUpdates',   label: 'Leaderboard ranking updates'              },
+  { key: 'competitionReminders', label: 'Monthly competition reminders'            },
 ];
 
-// ─── Toggle Switch Component ──────────────────────────────────────────────────────
+// ─── Toggle Switch ────────────────────────────────────────────────────────────
 function Toggle({ enabled, onChange }: { enabled: boolean; onChange: () => void }) {
   return (
     <button
@@ -75,7 +80,7 @@ function Toggle({ enabled, onChange }: { enabled: boolean; onChange: () => void 
   );
 }
 
-// ─── Section Wrapper ──────────────────────────────────────────────────────────────
+// ─── Section Wrapper ──────────────────────────────────────────────────────────
 function Section({
   title,
   children,
@@ -93,18 +98,72 @@ function Section({
   );
 }
 
-// ─── Main Component ───────────────────────────────────────────────────────────────
+// ─── Skeleton Row ─────────────────────────────────────────────────────────────
+function SkeletonField() {
+  return (
+    <div>
+      <div className="h-3 w-20 bg-gray-200 animate-pulse rounded mb-1.5" />
+      <div className="h-10 w-full bg-gray-100 animate-pulse rounded-lg" />
+    </div>
+  );
+}
+
+// ─── Main Component ───────────────────────────────────────────────────────────
 export default function SettingsPage() {
-  // ── Business Profile ──────────────────────────────────────────────────────────
-  const [editMode, setEditMode]     = useState(false);
-  const [profile, setProfile]       = useState<ProfileData>(DEFAULT_PROFILE);
-  const [draft, setDraft]           = useState<ProfileData>(DEFAULT_PROFILE);
+  const { user, profile, loading } = useUser();
+  const supabase = createClient();
 
-  const handleEditStart = () => { setDraft(profile); setEditMode(true); };
-  const handleSave      = () => { setProfile(draft); setEditMode(false); };
-  const handleCancel    = () => { setDraft(profile); setEditMode(false); };
+  // ── Business Profile ──────────────────────────────────────────────────────
+  const [editMode,  setEditMode]  = useState(false);
+  const [formData,  setFormData]  = useState<ProfileFormData>(EMPTY_FORM);
+  const [draft,     setDraft]     = useState<ProfileFormData>(EMPTY_FORM);
+  const [saving,    setSaving]    = useState(false);
+  const [saveMsg,   setSaveMsg]   = useState<{ type: 'success' | 'error'; text: string } | null>(null);
 
-  // ── Notifications ─────────────────────────────────────────────────────────────
+  // Profil yüklenince formu doldur
+  useEffect(() => {
+    if (profile) {
+      const mapped: ProfileFormData = {
+        full_name:     profile.full_name     ?? '',
+        business_name: profile.business_name ?? '',
+        business_type: profile.business_type ?? 'Independent Retailer',
+        city:          profile.city          ?? '',
+        country:       profile.country       ?? '',
+        email:         profile.email         ?? user?.email ?? '',
+      };
+      setFormData(mapped);
+      setDraft(mapped);
+    } else if (!loading && user) {
+      // Profil yok, e-mail'i doldur
+      setFormData((prev) => ({ ...prev, email: user.email ?? '' }));
+      setDraft   ((prev) => ({ ...prev, email: user.email ?? '' }));
+    }
+  }, [profile, loading, user]);
+
+  const handleEditStart = () => { setDraft(formData); setEditMode(true); setSaveMsg(null); };
+  const handleCancel    = () => { setDraft(formData); setEditMode(false); setSaveMsg(null); };
+
+  const handleSave = async () => {
+    if (!user) return;
+    setSaving(true);
+    setSaveMsg(null);
+
+    const { error } = await supabase
+      .from('profiles')
+      .upsert({ id: user.id, ...draft }, { onConflict: 'id' });
+
+    if (error) {
+      setSaveMsg({ type: 'error', text: error.message });
+    } else {
+      setFormData(draft);
+      setEditMode(false);
+      setSaveMsg({ type: 'success', text: 'Profile saved successfully.' });
+      setTimeout(() => setSaveMsg(null), 3000);
+    }
+    setSaving(false);
+  };
+
+  // ── Notifications ─────────────────────────────────────────────────────────
   const [toggles, setToggles] = useState<Record<ToggleKey, boolean>>({
     highRiskAlerts:       true,
     weeklySummary:        true,
@@ -112,20 +171,19 @@ export default function SettingsPage() {
     leaderboardUpdates:   false,
     competitionReminders: true,
   });
-
   const flipToggle = (key: ToggleKey) =>
     setToggles((prev) => ({ ...prev, [key]: !prev[key] }));
 
-  // ── Forecast Settings ─────────────────────────────────────────────────────────
+  // ── Forecast Settings ─────────────────────────────────────────────────────
   const [forecastPeriod, setForecastPeriod] = useState<ForecastPeriod>('7 days');
-  const [riskThreshold, setRiskThreshold]   = useState(75);
-  const [currency, setCurrency]             = useState<Currency>('EUR');
+  const [riskThreshold,  setRiskThreshold]  = useState(75);
+  const [currency,       setCurrency]       = useState<Currency>('EUR');
 
-  // ─── Render ──────────────────────────────────────────────────────────────────
+  // ─── Render ───────────────────────────────────────────────────────────────
   return (
     <div className="max-w-2xl mx-auto space-y-6">
 
-      {/* ── Page Header ──────────────────────────────────────────────────────── */}
+      {/* ── Page Header ───────────────────────────────────────────────────── */}
       <div>
         <h2 className="text-2xl font-bold text-gray-800">Settings</h2>
         <p className="text-sm text-gray-500 mt-1">
@@ -133,14 +191,15 @@ export default function SettingsPage() {
         </p>
       </div>
 
-      {/* ── 1. Business Profile ──────────────────────────────────────────────── */}
+      {/* ── 1. Business Profile ───────────────────────────────────────────── */}
       <Section title="Business Profile">
         <div className="flex items-start justify-between gap-4 mb-5">
           <p className="text-sm text-gray-500">Your public business information visible to buyers.</p>
           {!editMode ? (
             <button
               onClick={handleEditStart}
-              className="flex-shrink-0 px-4 py-1.5 text-sm font-semibold border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors"
+              disabled={loading}
+              className="flex-shrink-0 px-4 py-1.5 text-sm font-semibold border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50"
             >
               Edit Profile
             </button>
@@ -148,42 +207,60 @@ export default function SettingsPage() {
             <div className="flex gap-2 flex-shrink-0">
               <button
                 onClick={handleCancel}
-                className="px-4 py-1.5 text-sm font-semibold border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors"
+                disabled={saving}
+                className="px-4 py-1.5 text-sm font-semibold border border-gray-300 text-gray-600 rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50"
               >
                 Cancel
               </button>
               <button
                 onClick={handleSave}
-                className="px-4 py-1.5 text-sm font-semibold bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
+                disabled={saving}
+                className="px-4 py-1.5 text-sm font-semibold bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors disabled:opacity-70"
               >
-                Save Changes
+                {saving ? 'Saving…' : 'Save Changes'}
               </button>
             </div>
           )}
         </div>
 
+        {/* Save message */}
+        {saveMsg && (
+          <div
+            className={cn(
+              'text-sm p-3 rounded-lg mb-4 border',
+              saveMsg.type === 'success'
+                ? 'text-green-700 bg-green-50 border-green-200'
+                : 'text-red-600 bg-red-50 border-red-200'
+            )}
+          >
+            {saveMsg.text}
+          </div>
+        )}
+
         <div className="space-y-4">
-          {PROFILE_FIELDS.map(({ label, key }) => (
-            <div key={key}>
-              <label className="block text-xs font-semibold text-gray-500 mb-1.5">{label}</label>
-              {editMode ? (
-                <input
-                  type={key === 'email' ? 'email' : 'text'}
-                  value={draft[key]}
-                  onChange={(e) => setDraft((prev) => ({ ...prev, [key]: e.target.value }))}
-                  className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
-                />
-              ) : (
-                <p className="text-sm font-medium text-gray-800 bg-gray-50 rounded-lg px-4 py-2.5">
-                  {profile[key]}
-                </p>
-              )}
-            </div>
-          ))}
+          {loading
+            ? PROFILE_FIELDS.map((f) => <SkeletonField key={f.key} />)
+            : PROFILE_FIELDS.map(({ label, key, type }) => (
+                <div key={key}>
+                  <label className="block text-xs font-semibold text-gray-500 mb-1.5">{label}</label>
+                  {editMode ? (
+                    <input
+                      type={type ?? 'text'}
+                      value={draft[key]}
+                      onChange={(e) => setDraft((prev) => ({ ...prev, [key]: e.target.value }))}
+                      className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
+                    />
+                  ) : (
+                    <p className="text-sm font-medium text-gray-800 bg-gray-50 rounded-lg px-4 py-2.5">
+                      {formData[key] || <span className="text-gray-400 italic">Not set</span>}
+                    </p>
+                  )}
+                </div>
+              ))}
         </div>
       </Section>
 
-      {/* ── 2. Notification Preferences ──────────────────────────────────────── */}
+      {/* ── 2. Notifications ──────────────────────────────────────────────── */}
       <Section title="Notifications">
         <div className="space-y-4">
           {TOGGLE_ITEMS.map(({ key, label }) => (
@@ -200,7 +277,7 @@ export default function SettingsPage() {
         </div>
       </Section>
 
-      {/* ── 3. Forecast Settings ─────────────────────────────────────────────── */}
+      {/* ── 3. Forecast Settings ──────────────────────────────────────────── */}
       <Section title="Forecast Settings">
         <div className="space-y-6">
 
@@ -221,7 +298,7 @@ export default function SettingsPage() {
             </select>
           </div>
 
-          {/* Risk Threshold Slider */}
+          {/* Risk Threshold */}
           <div>
             <div className="flex items-center justify-between mb-1.5">
               <label htmlFor="risk-threshold" className="text-xs font-semibold text-gray-500">
@@ -239,8 +316,7 @@ export default function SettingsPage() {
               className="w-full h-2 bg-gray-200 rounded-full appearance-none cursor-pointer accent-primary"
             />
             <div className="flex justify-between text-xs text-gray-400 mt-1">
-              <span>50%</span>
-              <span>90%</span>
+              <span>50%</span><span>90%</span>
             </div>
             <p className="text-xs text-gray-500 mt-2">
               Products with surplus risk above{' '}
@@ -268,7 +344,7 @@ export default function SettingsPage() {
         </div>
       </Section>
 
-      {/* ── 4. Danger Zone ───────────────────────────────────────────────────── */}
+      {/* ── 4. Danger Zone ────────────────────────────────────────────────── */}
       <div className="border border-red-200 rounded-xl p-6 bg-red-50">
         <h3 className="text-base font-semibold text-red-700 mb-1">Danger Zone</h3>
         <p className="text-xs text-red-500 mb-5">These actions are permanent and cannot be undone.</p>

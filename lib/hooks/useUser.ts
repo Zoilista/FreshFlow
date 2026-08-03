@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { createClient } from '@/lib/supabase/client';
 
@@ -25,39 +25,18 @@ export function useUser(): UseUserReturn {
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
   const [loading, setLoading] = useState(true);
-  const supabase = createClient();
 
-  useEffect(() => {
-    // İlk oturumu al
-    supabase.auth.getUser().then(({ data: { user } }) => {
-      setUser(user);
-      if (user) {
-        fetchProfile(user.id);
-      } else {
-        setLoading(false);
-      }
-    });
+  // Client'ı bir kez oluştur — her render'da yeni instance açılmasın
+  const supabase = useMemo(() => createClient(), []);
 
-    // Oturum değişikliklerini dinle
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      const currentUser = session?.user ?? null;
-      setUser(currentUser);
-      if (currentUser) {
-        fetchProfile(currentUser.id);
-      } else {
-        setProfile(null);
-        setLoading(false);
-      }
-    });
-
-    return () => subscription.unsubscribe();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // Profil çekme işlemini ref ile takip et (çift fetch'i önle)
+  const fetchingRef = useRef<string | null>(null);
 
   async function fetchProfile(userId: string) {
-    setLoading(true);
+    // Aynı kullanıcı için zaten fetch varsa atla
+    if (fetchingRef.current === userId) return;
+    fetchingRef.current = userId;
+
     const { data, error } = await supabase
       .from('profiles')
       .select('*')
@@ -66,9 +45,36 @@ export function useUser(): UseUserReturn {
 
     if (!error && data) {
       setProfile(data as Profile);
+    } else {
+      setProfile(null);
     }
+
+    fetchingRef.current = null;
     setLoading(false);
   }
+
+  useEffect(() => {
+    // onAuthStateChange: INITIAL_SESSION event'i sayfa yüklenince
+    // hemen tetiklenir — bu getUser()'a göre daha güvenilirdir.
+    // Production'da cookie-based session'ı bu şekilde okur.
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange(async (event, session) => {
+      const currentUser = session?.user ?? null;
+      setUser(currentUser);
+
+      if (currentUser) {
+        // Session varsa profili çek; email'i hemen göster
+        await fetchProfile(currentUser.id);
+      } else {
+        setProfile(null);
+        setLoading(false);
+      }
+    });
+
+    return () => subscription.unsubscribe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [supabase]);
 
   return { user, profile, loading };
 }

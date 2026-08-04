@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import { cn } from '@/lib/utils';
 
 // ─── Types ────────────────────────────────────────────────────────────────────────
@@ -88,6 +91,60 @@ const QUICK_ACTIONS: QuickAction[] = [
   { emoji: '📈', label: 'Impact Report',   href: '/impact'   },
 ];
 
+// ─── Onboarding Banner ───────────────────────────────────────────────────────────
+function OnboardingBanner() {
+  const [visible, setVisible] = useState(true);
+
+  if (!visible) return null;
+
+  return (
+    <div className="relative bg-gradient-to-r from-primary-light to-blue-50 border border-primary/20 rounded-xl p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      {/* Close button */}
+      <button
+        id="onboarding-banner-close"
+        onClick={() => setVisible(false)}
+        className="absolute top-3 right-3 p-1 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-white/60 transition-colors"
+        aria-label="Dismiss banner"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      {/* Left side */}
+      <div className="min-w-0 pr-6">
+        <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-primary/15 text-primary text-xs font-bold mb-2">
+          Get Started
+        </span>
+        <h3 className="text-sm font-bold text-gray-800">
+          Upload your first data file to unlock forecasts
+        </h3>
+        <p className="text-xs text-gray-500 mt-0.5 leading-relaxed">
+          It takes less than 5 minutes. Just upload a CSV with your sales and stock data.
+        </p>
+      </div>
+
+      {/* Right side */}
+      <div className="flex items-center gap-3 flex-shrink-0">
+        <Link
+          href="/upload"
+          id="onboarding-banner-upload"
+          className="px-4 py-2 text-sm font-semibold bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors duration-150 shadow-sm whitespace-nowrap"
+        >
+          Upload Now →
+        </Link>
+        <button
+          id="onboarding-banner-example"
+          onClick={() => console.log('See example CSV clicked')}
+          className="text-sm text-gray-500 hover:text-gray-700 underline underline-offset-2 transition-colors whitespace-nowrap"
+        >
+          See example CSV
+        </button>
+      </div>
+    </div>
+  );
+}
+
 // ─── Main Component ───────────────────────────────────────────────────────────────
 export default function DashboardPage() {
   return (
@@ -118,6 +175,9 @@ export default function DashboardPage() {
           </Link>
         </div>
       </div>
+
+      {/* ── 1b. Onboarding Banner ──────────────────────────────────────────── */}
+      <OnboardingBanner />
 
       {/* ── 2. Urgent Alerts ─────────────────────────────────────────────────── */}
       <div className="space-y-3">

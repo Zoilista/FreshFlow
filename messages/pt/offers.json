@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Ofertas ativas",
+    "subtitle": "Inventário com desconto disponível para compradores ou doação.",
+    "stats": {
+      "activeOffers": "Ofertas Ativas",
+      "totalValue": "Valor total",
+      "potential": "Potencial de recuperação"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Pesquisar ofertas...",
+    "statusActive": "Ativo",
+    "statusPending": "Pendente",
+    "statusClosed": "Fechado",
+    "colProduct": "Produto",
+    "colPrice": "Preço da oferta",
+    "colQty": "Quantidade",
+    "colStatus": "Status",
+    "colExpires": "Expira em",
+    "colAction": "Ação",
+    "btnView": "Ver detalhes",
+    "empty": "Nenhuma oferta ativa ainda.",
+    "emptyDesc": "Crie ofertas do seu estoque excedente para recuperar valor.",
+    "btnSurplus": "Ver excedente"
+  }
+}

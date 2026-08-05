@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Surplus Management",
+    "subtitle": "Manage high-risk inventory before it becomes waste.",
+    "stats": {
+      "itemsAtRisk": "Items at Risk",
+      "totalValue": "Total Value at Risk",
+      "co2": "Est. CO₂ Footprint",
+      "safe": "All items safe"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Search products...",
+    "all": "All",
+    "highRisk": "High Risk",
+    "mediumRisk": "Medium Risk",
+    "lowRisk": "Low Risk",
+    "colProduct": "Product",
+    "colSurplus": "Surplus Qty",
+    "colRisk": "Risk Level",
+    "colEstLoss": "Est. Loss",
+    "colConfidence": "Confidence",
+    "colAction": "Action",
+    "btnCreate": "Create Offer",
+    "riskCritical": "CRITICAL",
+    "riskHigh": "HIGH",
+    "riskMedium": "MEDIUM",
+    "riskLow": "LOW",
+    "empty": "No surplus predictions yet.",
+    "emptyDesc": "Upload your latest inventory data to see predictions.",
+    "btnUpload": "Upload Data"
+  }
+}

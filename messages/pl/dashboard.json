@@ -1,0 +1,101 @@
+{
+  "greeting": "Dzień dobry",
+  "requiresAttention": "Wymaga uwagi",
+  "uploadNewData": "Prześlij nowe dane",
+  "viewForecast": "Zobacz prognozę",
+  "productsTracked": "Śledzone produkty",
+  "highRiskItems": "Przedmioty wysokiego ryzyka",
+  "foodSaved": "Uratowana żywność",
+  "recommendedActions": "Zalecane działania",
+  "leaderboard": {
+    "title": "🏆 Ranking Amsterdam",
+    "rank": "Zajmujesz #{rank} miejsce na {total} firm",
+    "viewFull": "Zobacz pełny ranking →"
+  },
+  "nav": {
+    "dashboard": "Pulpit",
+    "upload": "Prześlij",
+    "forecast": "Prognoza",
+    "surplus": "Nadwyżka",
+    "offers": "Oferty",
+    "impact": "Wpływ",
+    "settings": "Ustawienia"
+  },
+  "header": {
+    "searchPlaceholder": "Szukaj w ekwipunku...",
+    "notifications": "Powiadomienia",
+    "profile": "Profil",
+    "signOut": "Wyloguj się",
+    "loading": "Ładowanie…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Dzień dobry",
+      "afternoon": "Dzień dobry",
+      "evening": "Dobry wieczór",
+      "welcome": "Witamy"
+    },
+    "empty": {
+      "subtitle": "Skonfigurujmy dane Twojego ekwipunku.",
+      "getStarted": "Rozpocznij",
+      "title": "Prześlij swój pierwszy plik danych, aby odblokować prognozy",
+      "desc": "Zajmie to mniej niż 5 minut. Prześlij plik CSV lub Excel z danymi sprzedaży i zapasów, aby zobaczyć prognozy popytu, analizę ryzyka i wskaźniki wpływu.",
+      "btn": "Prześlij teraz →"
+    },
+    "banner": {
+      "subtitle": "Oto stan Twojego ekwipunku — ostatnia aktualizacja {time}.",
+      "uploadBtn": "Prześlij nowe dane",
+      "forecastBtn": "Zobacz prognozę →"
+    },
+    "urgent": {
+      "title": "Wymaga uwagi",
+      "subtitle": "({count} pilnych przedmiotów)",
+      "riskScore": "Ocena ryzyka: {score}/100",
+      "atRisk": "{value} zagrożonych",
+      "btn": "Utwórz ofertę →"
+    },
+    "stats": {
+      "products": "Śledzone produkty",
+      "productsSub": "{count} wygenerowanych prognoz",
+      "highRisk": "Przedmioty wysokiego ryzyka",
+      "highRiskSubSafe": "Wszystkie przedmioty są bezpieczne",
+      "highRiskSub": "{value} zagrożonych",
+      "foodSaved": "Uratowana żywność (Suma)",
+      "foodSavedSub": "uniknięto {value} t CO₂"
+    },
+    "actions": {
+      "title": "Zalecane działania",
+      "urgentTitle": "{count} przedmiotów wysokiego ryzyka wymaga uwagi",
+      "urgentDesc": "{value} potencjalnej straty",
+      "urgentBtn": "Utwórz oferty",
+      "forecastTitle": "Najnowsza prognoza gotowa",
+      "forecastDesc": "Na podstawie {file}",
+      "forecastBtn": "Zobacz prognozę",
+      "impactTitle": "Zapobiegłeś {value} marnowania żywności",
+      "impactDesc": "{value} uratowanych przychodów",
+      "impactBtn": "Zobacz raport wpływu",
+      "uploadTitle": "Utrzymuj dokładność prognoz",
+      "uploadDesc": "Przesyłaj nowe dane co tydzień, aby uzyskać najlepsze wyniki",
+      "uploadBtn": "Prześlij dane"
+    },
+    "recent": {
+      "title": "Ostatnia aktywność",
+      "upload": "Dane przesłane — <strong>{file}</strong>",
+      "highRisk": "Wykryto <strong>{count} przedmiotów wysokiego ryzyka</strong> w prognozie",
+      "impact": "Wpływ zaktualizowany — w sumie zapobiegnięto <strong>{value}</strong> odpadom",
+      "today": "Dzisiaj",
+      "viewAll": "Zobacz wszystkie prognozy →"
+    },
+    "quick": {
+      "title": "Szybkie akcje",
+      "manageSurplus": "Zarządzaj nadwyżką"
+    },
+    "lastUpload": {
+      "title": "Ostatnie przesłanie",
+      "validRows": "{count} prawidłowych wierszy",
+      "products": "{count} produktów",
+      "processed": "Przetworzono",
+      "btn": "Prześlij nowe →"
+    }
+  }
+}

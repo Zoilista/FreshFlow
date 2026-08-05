@@ -1,0 +1,101 @@
+{
+  "greeting": "Bonjour",
+  "requiresAttention": "Nécessite une attention",
+  "uploadNewData": "Importer de nouvelles données",
+  "viewForecast": "Voir les prévisions",
+  "productsTracked": "Produits suivis",
+  "highRiskItems": "Articles à haut risque",
+  "foodSaved": "Nourriture sauvée",
+  "recommendedActions": "Actions recommandées",
+  "leaderboard": {
+    "title": "🏆 Classement d'Amsterdam",
+    "rank": "Vous êtes classé #{rank} sur {total} entreprises",
+    "viewFull": "Voir le classement complet →"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "upload": "Importer",
+    "forecast": "Prévisions",
+    "surplus": "Surplus",
+    "offers": "Offres",
+    "impact": "Impact",
+    "settings": "Paramètres"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher dans l'inventaire...",
+    "notifications": "Notifications",
+    "profile": "Profil",
+    "signOut": "Se déconnecter",
+    "loading": "Chargement…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonsoir",
+      "welcome": "Bienvenue"
+    },
+    "empty": {
+      "subtitle": "Configurons vos données d'inventaire.",
+      "getStarted": "Commencer",
+      "title": "Importez votre premier fichier de données pour débloquer les prévisions",
+      "desc": "Cela prend moins de 5 minutes. Importez un fichier CSV ou Excel avec vos données de ventes et de stocks pour voir les prévisions de demande, l'analyse des risques et les mesures d'impact.",
+      "btn": "Importer maintenant →"
+    },
+    "banner": {
+      "subtitle": "Voici l'état de votre inventaire — dernière mise à jour {time}.",
+      "uploadBtn": "Importer de nouvelles données",
+      "forecastBtn": "Voir les prévisions →"
+    },
+    "urgent": {
+      "title": "Nécessite une attention",
+      "subtitle": "({count} articles urgents)",
+      "riskScore": "Score de risque : {score}/100",
+      "atRisk": "{value} à risque",
+      "btn": "Créer une offre →"
+    },
+    "stats": {
+      "products": "Produits suivis",
+      "productsSub": "{count} prévisions générées",
+      "highRisk": "Articles à haut risque",
+      "highRiskSubSafe": "Tous les articles sont en sécurité",
+      "highRiskSub": "{value} à risque",
+      "foodSaved": "Nourriture sauvée (Total)",
+      "foodSavedSub": "{value} t de CO₂ évitées"
+    },
+    "actions": {
+      "title": "Actions recommandées",
+      "urgentTitle": "{count} articles à haut risque nécessitent une attention",
+      "urgentDesc": "{value} de perte potentielle",
+      "urgentBtn": "Créer des offres",
+      "forecastTitle": "Dernières prévisions prêtes",
+      "forecastDesc": "Basé sur {file}",
+      "forecastBtn": "Voir les prévisions",
+      "impactTitle": "Vous avez évité {value} de gaspillage alimentaire",
+      "impactDesc": "{value} de revenus sauvés",
+      "impactBtn": "Voir le rapport d'impact",
+      "uploadTitle": "Gardez les prévisions précises",
+      "uploadDesc": "Importez de nouvelles données chaque semaine pour de meilleurs résultats",
+      "uploadBtn": "Importer des données"
+    },
+    "recent": {
+      "title": "Activité récente",
+      "upload": "Données importées — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} articles à haut risque</strong> détectés dans les prévisions",
+      "impact": "Impact mis à jour — <strong>{value}</strong> de gaspillage évité au total",
+      "today": "Aujourd'hui",
+      "viewAll": "Voir toutes les prévisions →"
+    },
+    "quick": {
+      "title": "Actions rapides",
+      "manageSurplus": "Gérer les surplus"
+    },
+    "lastUpload": {
+      "title": "Dernier import",
+      "validRows": "{count} lignes valides",
+      "products": "{count} produits",
+      "processed": "Traité",
+      "btn": "Nouvel import →"
+    }
+  }
+}

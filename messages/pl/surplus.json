@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Zarządzanie nadwyżkami",
+    "subtitle": "Zarządzaj zapasami wysokiego ryzyka, zanim staną się odpadami.",
+    "stats": {
+      "itemsAtRisk": "Przedmioty zagrożone",
+      "totalValue": "Całkowita wartość zagrożona",
+      "co2": "Szac. Ślad CO₂",
+      "safe": "Wszystkie przedmioty bezpieczne"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Wyszukaj produkty...",
+    "all": "Wszystko",
+    "highRisk": "Wysokie ryzyko",
+    "mediumRisk": "Średnie ryzyko",
+    "lowRisk": "Niskie ryzyko",
+    "colProduct": "Produkt",
+    "colSurplus": "Nadwyżka szt",
+    "colRisk": "Poziom ryzyka",
+    "colEstLoss": "Szac. Strata",
+    "colConfidence": "Zaufanie",
+    "colAction": "Działanie",
+    "btnCreate": "Utwórz ofertę",
+    "riskCritical": "KRYTYCZNY",
+    "riskHigh": "WYSOKI",
+    "riskMedium": "ŚREDNI",
+    "riskLow": "NISKI",
+    "empty": "Nie ma jeszcze żadnych dodatkowych prognoz.",
+    "emptyDesc": "Prześlij najnowsze dane o asortymencie, aby zobaczyć prognozy.",
+    "btnUpload": "Prześlij dane"
+  }
+}

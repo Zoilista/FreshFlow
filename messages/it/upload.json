@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Carica i dati di inventario",
+    "subtitle": "Carica i tuoi ultimi dati sulle vendite e sulle scorte per generare nuove previsioni.",
+    "btnDownloadTemplate": "Scarica il modello CSV",
+    "uploadBox": {
+      "title": "Fare clic per caricare",
+      "desc": "oppure trascina e rilascia",
+      "formats": "CSV o Excel (massimo 10 MB)",
+      "uploading": "Caricamento e analisi in corso...",
+      "processing": "Elaborazione dati...",
+      "success": "Caricamento riuscito!"
+    },
+    "validation": {
+      "title": "Convalida dei dati",
+      "row": "Riga {row}",
+      "rowsValid": "{count} righe valide",
+      "errorsFound": "{count} errori trovati",
+      "noErrors": "Perfetto! I tuoi dati sono pronti per essere elaborati."
+    }
+  }
+}

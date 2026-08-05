@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Comience a prevenir el desperdicio hoy. Sin cargos ocultos, cancela en cualquier momento.",
+    "monthly": "Mensual",
+    "annually": "Anualmente",
+    "save20": "Ahorra 20%",
+    "getStarted": "Empezar",
+    "contactSales": "Contacto Ventas",
+    "starter": {
+      "name": "Motor de arranque",
+      "desc": "Perfecto para restaurantes de un solo local y pequeños comercios.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "Hasta 500 productos rastreados",
+      "f2": "Previsión básica de la demanda.",
+      "f3": "Alertas de excedente por correo electrónico",
+      "f4": "Soporte estándar"
+    },
+    "pro": {
+      "name": "Profesional",
+      "desc": "Para mayoristas ocupados y empresas con múltiples ubicaciones.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Productos ilimitados rastreados",
+      "f2": "Previsión avanzada de IA",
+      "f3": "Ofertas B2B automatizadas",
+      "f4": "Apoyo prioritario"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Forecast
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+demo@freshflow.ai
+Loading…
+DE
+Surplus Risk Forecast
+
+Demand predictions and surplus risk analysis for your inventory.
+
+Showing forecast based on test.csv (5 Aug 2026)
+
+Upload New Data →
+
+PRODUCTS ANALYSED
+
+5
+
+HIGH RISK ITEMS
+
+0
+
+FORECAST PERIOD
+
+7 days
+
+POTENTIAL LOSS
+
+€0
+
+Surplus Risk Table
+
+5 of 5 products shown
+
+All
+5
+Critical
+High
+Medium
+2
+Low
+3
+PRODUCT	CATEGORY	CURRENT STOCK	FORECAST DEMAND (7D)	RISK LEVEL	RISK SCORE	AT RISK VALUE	ACTION
+Bread Rolls	—	10 kg	606.67 kg	MEDIUM	
+44
+	—	Monitor
+Milk 2L	—	22 kg	270.67 kg	MEDIUM	
+41
+	—	Monitor
+Tomatoes	—	150 kg	326.67 kg	LOW	
+24
+	—	—
+Strawberries	—	62 kg	130.67 kg	LOW	
+24
+	—	—
+Bananas	—	115 kg	233.33 kg	LOW	
+23
+	—	—

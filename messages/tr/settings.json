@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Ayarlar",
+    "subtitle": "Hesabınızı, tercihlerinizi ve kuruluş ayrıntılarınızı yönetin.",
+    "tabs": {
+      "profile": "Profil",
+      "preferences": "Tercihler",
+      "billing": "Faturalandırma"
+    },
+    "profile": {
+      "title": "İşletme Profili",
+      "desc": "Herkese açık işletme bilgileriniz alıcılar tarafından görülebilir.",
+      "nameLabel": "Ad Soyad",
+      "businessLabel": "İşletme Adı",
+      "emailLabel": "E-posta Adresi",
+      "btnSave": "Değişiklikleri Kaydet",
+      "btnSaving": "Kaydediliyor...",
+      "success": "Profil başarıyla kaydedildi.",
+      "error": "Profil güncellenemedi.",
+      "btnEdit": "Profili Düzenle",
+      "btnCancel": "İptal etmek",
+      "notSet": "Ayarlanmadı"
+    },
+    "preferences": {
+      "title": "Uygulama Tercihleri",
+      "desc": "Deneyiminizi özelleştirin.",
+      "languageLabel": "Dil",
+      "currencyLabel": "Para birimi",
+      "btnSave": "Tercihleri ​​Kaydet"
+    },
+    "header": {
+      "title": "Ayarlar",
+      "subtitle": "İşletme profilinizi, bildirimlerinizi ve tahmin tercihlerinizi yönetin."
+    },
+    "notifications": {
+      "title": "Bildirimler",
+      "on": "AÇIK",
+      "off": "KAPALI",
+      "highRiskAlerts": "Yüksek riskli fazlalık öğeler için e-posta uyarıları",
+      "weeklySummary": "Haftalık etki özeti e-postası",
+      "buyerResponses": "Yeni alıcı yanıt bildirimleri",
+      "leaderboardUpdates": "Skor tablosu sıralama güncellemeleri",
+      "competitionReminders": "Aylık yarışma hatırlatıcıları"
+    },
+    "forecastSettings": {
+      "title": "Tahmin Ayarları",
+      "periodLabel": "Tahmin Dönemi",
+      "riskLabel": "Yüksek Risk Eşiği",
+      "riskDesc1": "Fazla riski yukarıda olan ürünler",
+      "riskDesc2": "% olarak işaretlenecek",
+      "riskDesc3": "YÜKSEK",
+      "currencyLabel": "Para birimi"
+    },
+    "danger": {
+      "title": "Tehlikeli Bölge",
+      "desc": "Bu eylemler kalıcıdır ve geri alınamaz.",
+      "btnDeleteData": "Yüklenen Tüm Verileri Sil",
+      "btnDeleteAccount": "Hesabı Sil",
+      "confirmDelete": "Yüklenen tüm verileri silmek istediğinizden emin misiniz? Bu geri alınamaz."
+    },
+    "fields": {
+      "full_name": "Ad Soyad",
+      "business_name": "İşletme Adı",
+      "business_type": "İşletme Türü",
+      "city": "Şehir",
+      "country": "Ülke",
+      "email": "İletişim E-postası"
+    }
+  }
+}

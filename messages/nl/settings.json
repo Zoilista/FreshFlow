@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Instellingen",
+    "subtitle": "Beheer uw account-, voorkeuren- en organisatiegegevens.",
+    "tabs": {
+      "profile": "Profiel",
+      "preferences": "Voorkeuren",
+      "billing": "Facturering"
+    },
+    "profile": {
+      "title": "Bedrijfsprofiel",
+      "desc": "Uw openbare bedrijfsinformatie zichtbaar voor kopers.",
+      "nameLabel": "Volledige naam",
+      "businessLabel": "Bedrijfsnaam",
+      "emailLabel": "E-mailadres",
+      "btnSave": "Wijzigingen opslaan",
+      "btnSaving": "Besparing...",
+      "success": "Profiel succesvol opgeslagen.",
+      "error": "Kan profiel niet updaten.",
+      "btnEdit": "Profiel bewerken",
+      "btnCancel": "Annuleren",
+      "notSet": "Niet ingesteld"
+    },
+    "preferences": {
+      "title": "Toepassingsvoorkeuren",
+      "desc": "Pas uw ervaring aan.",
+      "languageLabel": "Taal",
+      "currencyLabel": "Munteenheid",
+      "btnSave": "Bewaar voorkeuren"
+    },
+    "header": {
+      "title": "Instellingen",
+      "subtitle": "Beheer uw bedrijfsprofiel, meldingen en prognosevoorkeuren."
+    },
+    "notifications": {
+      "title": "Meldingen",
+      "on": "OP",
+      "off": "UIT",
+      "highRiskAlerts": "E-mailwaarschuwingen voor overtollige artikelen met een hoog risico",
+      "weeklySummary": "Wekelijkse e-mail met een impactoverzicht",
+      "buyerResponses": "Meldingen over nieuwe kopersreacties",
+      "leaderboardUpdates": "Updates voor ranglijsten op het klassement",
+      "competitionReminders": "Maandelijkse wedstrijdherinneringen"
+    },
+    "forecastSettings": {
+      "title": "Prognose-instellingen",
+      "periodLabel": "Prognoseperiode",
+      "riskLabel": "Hoge risicodrempel",
+      "riskDesc1": "Producten met surplusrisico hierboven",
+      "riskDesc2": "% wordt gemarkeerd als",
+      "riskDesc3": "HOOG",
+      "currencyLabel": "Munteenheid"
+    },
+    "danger": {
+      "title": "Gevarenzone",
+      "desc": "Deze acties zijn permanent en kunnen niet ongedaan worden gemaakt.",
+      "btnDeleteData": "Verwijder alle geüploade gegevens",
+      "btnDeleteAccount": "Account verwijderen",
+      "confirmDelete": "Weet u zeker dat u alle geüploade gegevens wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+    },
+    "fields": {
+      "full_name": "Volledige naam",
+      "business_name": "Bedrijfsnaam",
+      "business_type": "Bedrijfstype",
+      "city": "Stad",
+      "country": "Land",
+      "email": "Neem contact op met E-mail"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Prodotto",
+    "pricing": "Prezzi",
+    "login": "Accedi",
+    "getStarted": "Inizia"
+  },
+  "hero": {
+    "badge": "NUOVO: Gestione delle eccedenze basata su IA",
+    "title1": "Ferma lo spreco di cibo fresco",
+    "title2": "Prima che avvenga",
+    "subtitle": "Unisciti a centinaia di aziende alimentari indipendenti che utilizzano l'IA per prevedere con precisione la domanda, prevenire ordini eccessivi e trasformare l'inventario in eccesso in entrate recuperate.",
+    "cta": "Inizia la tua prova gratuita",
+    "demo": "Prenota una demo"
+  },
+  "features": {
+    "title": "Tutto ciò di cui hai bisogno per un'operazione a zero sprechi",
+    "subtitle": "Progettato per grossisti indipendenti, rivenditori e ristoranti.",
+    "f1Title": "Previsione della domanda",
+    "f1Desc": "Carica la cronologia delle tue vendite e lascia che la nostra IA preveda esattamente quanto cibo fresco ti serve per i prossimi 7 giorni.",
+    "f2Title": "Avvisi di eccedenza",
+    "f2Desc": "Ricevi notifiche prima che gli articoli scadano. Identifichiamo l'inventario ad alto rischio in modo che tu possa agire in anticipo.",
+    "f3Title": "Offerte automatizzate",
+    "f3Desc": "Trasforma le eccedenze in entrate creando istantaneamente offerte scontate per i tuoi acquirenti B2B o associazioni di beneficenza locali."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Tutti i diritti riservati.",
+    "terms": "Termini di servizio",
+    "privacy": "Informativa sulla privacy"
+  }
+}

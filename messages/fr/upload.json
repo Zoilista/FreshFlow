@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Télécharger les données d'inventaire",
+    "subtitle": "Téléchargez vos dernières données de ventes et de stocks pour générer de nouvelles prévisions.",
+    "btnDownloadTemplate": "Télécharger le modèle CSV",
+    "uploadBox": {
+      "title": "Cliquez pour télécharger",
+      "desc": "ou glisser-déposer",
+      "formats": "CSV ou Excel (max. 10 Mo)",
+      "uploading": "Téléchargement et analyse...",
+      "processing": "Traitement des données...",
+      "success": "Téléchargement réussi !"
+    },
+    "validation": {
+      "title": "Validation des données",
+      "row": "Ligne {row}",
+      "rowsValid": "{count} lignes valides",
+      "errorsFound": "Erreurs {count} trouvées",
+      "noErrors": "Parfait! Vos données sont prêtes à être traitées."
+    }
+  }
+}

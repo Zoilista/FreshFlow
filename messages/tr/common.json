@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow — Taze Gıda İsrafını Olmadan Önce Durdurun",
+    "description": "Avrupa genelindeki bağımsız toptancılar, perakendeciler ve restoranlar için yapay zeka destekli talep tahmini ve fazlalık eşleştirme. Atıkları azaltın, geliri kurtarın."
+  },
+  "loading": "Yükleniyor...",
+  "error": "Bir hata oluştu.",
+  "save": "Kaydetmek",
+  "cancel": "İptal etmek",
+  "confirm": "Onaylamak",
+  "delete": "Silmek",
+  "close": "Kapalı",
+  "language": "Dil"
+}

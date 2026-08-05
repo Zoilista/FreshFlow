@@ -1,0 +1,101 @@
+{
+  "greeting": "Buenos días",
+  "requiresAttention": "Requiere atención",
+  "uploadNewData": "Subir nuevos datos",
+  "viewForecast": "Ver pronóstico",
+  "productsTracked": "Productos rastreados",
+  "highRiskItems": "Artículos de alto riesgo",
+  "foodSaved": "Alimentos salvados",
+  "recommendedActions": "Acciones recomendadas",
+  "leaderboard": {
+    "title": "🏆 Clasificación de Ámsterdam",
+    "rank": "Estás en el puesto #{rank} de {total} empresas",
+    "viewFull": "Ver clasificación completa →"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "upload": "Subir",
+    "forecast": "Pronóstico",
+    "surplus": "Excedente",
+    "offers": "Ofertas",
+    "impact": "Impacto",
+    "settings": "Ajustes"
+  },
+  "header": {
+    "searchPlaceholder": "Buscar inventario...",
+    "notifications": "Notificaciones",
+    "profile": "Perfil",
+    "signOut": "Cerrar sesión",
+    "loading": "Cargando…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas noches",
+      "welcome": "Bienvenido"
+    },
+    "empty": {
+      "subtitle": "Configuremos los datos de tu inventario.",
+      "getStarted": "Empezar",
+      "title": "Sube tu primer archivo de datos para desbloquear pronósticos",
+      "desc": "Toma menos de 5 minutos. Sube un archivo CSV o Excel con tus datos de ventas y stock para ver pronósticos de demanda, análisis de riesgos y métricas de impacto.",
+      "btn": "Subir ahora →"
+    },
+    "banner": {
+      "subtitle": "Aquí está el estado de tu inventario — última actualización {time}.",
+      "uploadBtn": "Subir nuevos datos",
+      "forecastBtn": "Ver pronóstico →"
+    },
+    "urgent": {
+      "title": "Requiere atención",
+      "subtitle": "({count} artículos urgentes)",
+      "riskScore": "Puntuación de riesgo: {score}/100",
+      "atRisk": "{value} en riesgo",
+      "btn": "Crear oferta →"
+    },
+    "stats": {
+      "products": "Productos rastreados",
+      "productsSub": "{count} pronósticos generados",
+      "highRisk": "Artículos de alto riesgo",
+      "highRiskSubSafe": "Todos los artículos están seguros",
+      "highRiskSub": "{value} en riesgo",
+      "foodSaved": "Alimentos salvados (Total)",
+      "foodSavedSub": "{value} t CO₂ evitadas"
+    },
+    "actions": {
+      "title": "Acciones recomendadas",
+      "urgentTitle": "{count} artículos de alto riesgo requieren atención",
+      "urgentDesc": "{value} de pérdida potencial",
+      "urgentBtn": "Crear ofertas",
+      "forecastTitle": "Último pronóstico listo",
+      "forecastDesc": "Basado en {file}",
+      "forecastBtn": "Ver pronóstico",
+      "impactTitle": "Has evitado {value} de desperdicio de alimentos",
+      "impactDesc": "{value} ingresos salvados",
+      "impactBtn": "Ver informe de impacto",
+      "uploadTitle": "Mantén los pronósticos precisos",
+      "uploadDesc": "Sube nuevos datos semanalmente para mejores resultados",
+      "uploadBtn": "Subir datos"
+    },
+    "recent": {
+      "title": "Actividad reciente",
+      "upload": "Datos subidos — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} artículos de alto riesgo</strong> detectados en el pronóstico",
+      "impact": "Impacto actualizado — <strong>{value}</strong> de desperdicio evitado en total",
+      "today": "Hoy",
+      "viewAll": "Ver todos los pronósticos →"
+    },
+    "quick": {
+      "title": "Acciones rápidas",
+      "manageSurplus": "Gestionar excedente"
+    },
+    "lastUpload": {
+      "title": "Última subida",
+      "validRows": "{count} filas válidas",
+      "products": "{count} productos",
+      "processed": "Procesado",
+      "btn": "Subir nuevo →"
+    }
+  }
+}

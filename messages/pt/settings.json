@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Configurações",
+    "subtitle": "Gerencie sua conta, preferências e detalhes da organização.",
+    "tabs": {
+      "profile": "Perfil",
+      "preferences": "Preferências",
+      "billing": "Cobrança"
+    },
+    "profile": {
+      "title": "Perfil da empresa",
+      "desc": "Suas informações comerciais públicas visíveis para os compradores.",
+      "nameLabel": "Nome completo",
+      "businessLabel": "Nome comercial",
+      "emailLabel": "Endereço de email",
+      "btnSave": "Salvar alterações",
+      "btnSaving": "Salvando...",
+      "success": "Perfil salvo com sucesso.",
+      "error": "Falha ao atualizar o perfil.",
+      "btnEdit": "Editar perfil",
+      "btnCancel": "Cancelar",
+      "notSet": "Não definido"
+    },
+    "preferences": {
+      "title": "Preferências do aplicativo",
+      "desc": "Personalize sua experiência.",
+      "languageLabel": "Linguagem",
+      "currencyLabel": "Moeda",
+      "btnSave": "Salvar preferências"
+    },
+    "header": {
+      "title": "Configurações",
+      "subtitle": "Gerencie seu perfil comercial, notificações e preferências de previsão."
+    },
+    "notifications": {
+      "title": "Notificações",
+      "on": "SOBRE",
+      "off": "DESLIGADO",
+      "highRiskAlerts": "Alertas por e-mail para itens excedentes de alto risco",
+      "weeklySummary": "E-mail de resumo de impacto semanal",
+      "buyerResponses": "Novas notificações de resposta do comprador",
+      "leaderboardUpdates": "Atualizações de classificação na tabela de classificação",
+      "competitionReminders": "Lembretes mensais da competição"
+    },
+    "forecastSettings": {
+      "title": "Configurações de previsão",
+      "periodLabel": "Período de previsão",
+      "riskLabel": "Limite de alto risco",
+      "riskDesc1": "Produtos com risco excedente acima",
+      "riskDesc2": "% será sinalizado como",
+      "riskDesc3": "HIGH",
+      "currencyLabel": "Moeda"
+    },
+    "danger": {
+      "title": "Danger Zone",
+      "desc": "Essas ações são permanentes e não podem ser desfeitas.",
+      "btnDeleteData": "Excluir todos os dados enviados",
+      "btnDeleteAccount": "Excluir conta",
+      "confirmDelete": "Tem certeza de que deseja excluir todos os dados enviados? Isto não pode ser desfeito."
+    },
+    "fields": {
+      "full_name": "Nome completo",
+      "business_name": "Nome comercial",
+      "business_type": "Tipo de negócio",
+      "city": "Cidade",
+      "country": "País",
+      "email": "E-mail de contato"
+    }
+  }
+}

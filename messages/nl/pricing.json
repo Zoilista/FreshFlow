@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Eenvoudige, transparante prijzen",
+    "subtitle": "Begin vandaag nog met het voorkomen van verspilling. Geen verborgen kosten, annuleer op elk moment.",
+    "monthly": "Maandelijks",
+    "annually": "Jaarlijks",
+    "save20": "Bespaar 20%",
+    "getStarted": "Aan de slag",
+    "contactSales": "Neem contact op met Verkoop",
+    "starter": {
+      "name": "Starter",
+      "desc": "Perfect voor restaurants met één locatie en kleine retailers.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "Tot 500 producten gevolgd",
+      "f2": "Basisvoorspelling van de vraag",
+      "f3": "E-mailoverschotwaarschuwingen",
+      "f4": "Standaard ondersteuning"
+    },
+    "pro": {
+      "name": "Professioneel",
+      "desc": "Voor drukke groothandels en bedrijven met meerdere locaties.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Onbeperkt aantal producten gevolgd",
+      "f2": "Geavanceerde AI-voorspellingen",
+      "f3": "Geautomatiseerde B2B-aanbiedingen",
+      "f4": "Prioritaire ondersteuning"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Aktywne oferty",
+    "subtitle": "Dostępne zapasy ze zniżką dla kupujących lub w ramach darowizny.",
+    "stats": {
+      "activeOffers": "Aktywne oferty",
+      "totalValue": "Całkowita wartość",
+      "potential": "Potencjał odzyskiwania"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Wyszukaj oferty...",
+    "statusActive": "Aktywny",
+    "statusPending": "Aż do",
+    "statusClosed": "Zamknięte",
+    "colProduct": "Produkt",
+    "colPrice": "Oferta cenowa",
+    "colQty": "Ilość",
+    "colStatus": "Status",
+    "colExpires": "Wygasa w",
+    "colAction": "Działanie",
+    "btnView": "Zobacz szczegóły",
+    "empty": "Nie ma jeszcze aktywnych ofert.",
+    "emptyDesc": "Twórz oferty z nadwyżek magazynowych, aby odzyskać wartość.",
+    "btnSurplus": "Zobacz nadwyżkę"
+  }
+}

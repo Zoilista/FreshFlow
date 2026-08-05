@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Überschussmanagement",
+    "subtitle": "Verwalten Sie Hochrisikobestände, bevor sie zu Abfall werden.",
+    "stats": {
+      "itemsAtRisk": "Gefährdete Gegenstände",
+      "totalValue": "Gesamtwert des Risikos",
+      "co2": "Schätzung: CO₂-Fußabdruck",
+      "safe": "Alle Artikel sicher"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Produkte suchen...",
+    "all": "Alle",
+    "highRisk": "Hohes Risiko",
+    "mediumRisk": "Mittleres Risiko",
+    "lowRisk": "Geringes Risiko",
+    "colProduct": "Produkt",
+    "colSurplus": "Überschussmenge",
+    "colRisk": "Risikostufe",
+    "colEstLoss": "Schätzung: Verlust",
+    "colConfidence": "Vertrauen",
+    "colAction": "Aktion",
+    "btnCreate": "Angebot erstellen",
+    "riskCritical": "KRITISCH",
+    "riskHigh": "HOCH",
+    "riskMedium": "MEDIUM",
+    "riskLow": "NIEDRIG",
+    "empty": "Noch keine Überschussvorhersagen.",
+    "emptyDesc": "Laden Sie Ihre neuesten Bestandsdaten hoch, um Prognosen anzuzeigen.",
+    "btnUpload": "Daten hochladen"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Preços simples e transparentes",
+    "subtitle": "Comece a prevenir o desperdício hoje. Sem taxas ocultas, cancele a qualquer momento.",
+    "monthly": "Mensal",
+    "annually": "Anualmente",
+    "save20": "Economize 20%",
+    "getStarted": "Comece",
+    "contactSales": "Entre em contato com vendas",
+    "starter": {
+      "name": "Iniciante",
+      "desc": "Perfeito para restaurantes em um único local e pequenos varejistas.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "Até 500 produtos rastreados",
+      "f2": "Previsão básica de demanda",
+      "f3": "Alertas de excedente por e-mail",
+      "f4": "Suporte padrão"
+    },
+    "pro": {
+      "name": "Profissional",
+      "desc": "Para atacadistas ocupados e empresas com vários locais.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Produtos ilimitados rastreados",
+      "f2": "Previsão avançada de IA",
+      "f3": "Ofertas B2B automatizadas",
+      "f4": "Suporte prioritário"
+    }
+  }
+}

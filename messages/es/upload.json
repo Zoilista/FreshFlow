@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Cargar datos de inventario",
+    "subtitle": "Cargue sus últimos datos de ventas y existencias para generar pronósticos nuevos.",
+    "btnDownloadTemplate": "Descargar plantilla CSV",
+    "uploadBox": {
+      "title": "Haga clic para cargar",
+      "desc": "o arrastrar y soltar",
+      "formats": "CSV o Excel (máx. 10 MB)",
+      "uploading": "Cargando y analizando...",
+      "processing": "Procesando datos...",
+      "success": "¡Subida exitosa!"
+    },
+    "validation": {
+      "title": "Validación de datos",
+      "row": "Fila {row}",
+      "rowsValid": "{count} filas válidas",
+      "errorsFound": "Errores {count} encontrados",
+      "noErrors": "¡Perfecto! Tus datos están listos para ser procesados."
+    }
+  }
+}

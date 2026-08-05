@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow: ferma gli sprechi di cibo fresco prima che accada",
+    "description": "Previsione della domanda basata sull'intelligenza artificiale e corrispondenza delle eccedenze per grossisti, rivenditori e ristoranti indipendenti in tutta Europa. Ridurre gli sprechi, recuperare i ricavi."
+  },
+  "loading": "Caricamento...",
+  "error": "Si è verificato un errore.",
+  "save": "Salva",
+  "cancel": "Cancellare",
+  "confirm": "Confermare",
+  "delete": "Eliminare",
+  "close": "Vicino",
+  "language": "Lingua"
+}

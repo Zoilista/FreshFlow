@@ -2,10 +2,10 @@ import { createClient } from '@supabase/supabase-js'
 import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
-  console.log('[waitlist] POST called')
+  
   try {
     const body = await request.json()
-    console.log('[waitlist] body:', body)
+    
 
     const { name, email, business_type, city } = body as {
       name: string
@@ -18,22 +18,22 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
     }
 
-    console.log('[waitlist] creating supabase client')
-    console.log('[waitlist] URL:', process.env.NEXT_PUBLIC_SUPABASE_URL)
-    console.log('[waitlist] KEY exists:', !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)
+    
+    
+    
 
     const supabase = createClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
     )
 
-    console.log('[waitlist] inserting...')
-    const { data, error } = await supabase
+    
+    const { error } = await supabase
       .from('waitlist')
       .insert({ name, email, business_type, city })
       .select()
 
-    console.log('[waitlist] result:', { data, error })
+    
 
     if (error) {
       return NextResponse.json(

@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Nachfrageprognose",
+    "subtitle": "KI-gestützte Vorhersagen für die nächsten 7 Tage basierend auf Ihrer Verkaufshistorie.",
+    "stats": {
+      "avgAccuracy": "Durchschn. Genauigkeit",
+      "projectedSales": "Prognostizierter Umsatz (7 Tage)",
+      "wasteRisk": "Abfallrisikostufe",
+      "wasteRiskSub": "Aktion empfohlen",
+      "riskLow": "NIEDRIG",
+      "riskMedium": "MEDIUM",
+      "riskHigh": "HOCH"
+    },
+    "alerts": {
+      "missingData": "Fehlende Daten",
+      "missingDataDesc": "Keine Prognosedaten verfügbar. Bitte laden Sie Ihre aktuellen Bestandsdaten hoch."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Produkte suchen...",
+    "btnFilter": "Filter",
+    "colProduct": "Produkt",
+    "colStock": "Aktueller Lagerbestand",
+    "colDemand": "Erwartete Nachfrage (7 Tage)",
+    "colConfidence": "Vertrauen",
+    "colRisk": "Abfallrisiko",
+    "action": "Aktion",
+    "btnManage": "Verwalten",
+    "empty": "Keine Produkte entsprechen dem ausgewählten Filter.",
+    "emptyDesc": "Laden Sie Ihre Verkaufs- und Bestandsdaten hoch, um Prognosen zu erstellen.",
+    "btnUpload": "Daten hochladen",
+    "title": "Überschussrisikotabelle",
+    "subtitle": "{filtered} von {total} Produkten angezeigt",
+    "colCategory": "Kategorie",
+    "colRiskLevel": "Risikostufe",
+    "colRiskScore": "Risikobewertung",
+    "colAtRisk": "Risikowert",
+    "colAction": "Aktion",
+    "createOffer": "Angebot erstellen",
+    "monitor": "Monitor"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Product",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "NEW: AI-powered surplus management",
+    "title1": "Stop Fresh Food Waste",
+    "title2": "Before It Happens",
+    "subtitle": "Join hundreds of independent food businesses using AI to accurately forecast demand, prevent over-ordering, and turn surplus inventory into recovered revenue.",
+    "cta": "Start Your Free Trial",
+    "demo": "Book a Demo"
+  },
+  "features": {
+    "title": "Everything you need to run a zero-waste operation",
+    "subtitle": "Purpose-built for independent wholesalers, retailers, and restaurants.",
+    "f1Title": "Demand Forecasting",
+    "f1Desc": "Upload your sales history and let our AI predict exactly how much fresh food you need for the next 7 days.",
+    "f2Title": "Surplus Alerts",
+    "f2Desc": "Get notified before items expire. We identify high-risk inventory so you can take action early.",
+    "f3Title": "Automated Offers",
+    "f3Desc": "Turn surplus into revenue by instantly creating discounted offers for your B2B buyers or local charities."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  }
+}

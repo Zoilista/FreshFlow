@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Gestion des surplus",
+    "subtitle": "Gérez les stocks à haut risque avant qu’ils ne deviennent des déchets.",
+    "stats": {
+      "itemsAtRisk": "Objets à risque",
+      "totalValue": "Valeur totale à risque",
+      "co2": "HNE. Empreinte CO₂",
+      "safe": "Tous les articles sont en sécurité"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Rechercher des produits...",
+    "all": "Tous",
+    "highRisk": "Risque élevé",
+    "mediumRisk": "Risque moyen",
+    "lowRisk": "Faible risque",
+    "colProduct": "Produit",
+    "colSurplus": "Quantité excédentaire",
+    "colRisk": "Niveau de risque",
+    "colEstLoss": "HNE. Perte",
+    "colConfidence": "Confiance",
+    "colAction": "Action",
+    "btnCreate": "Créer une offre",
+    "riskCritical": "CRITIQUE",
+    "riskHigh": "HAUT",
+    "riskMedium": "MOYEN",
+    "riskLow": "FAIBLE",
+    "empty": "Aucune prévision de surplus pour l’instant.",
+    "emptyDesc": "Téléchargez vos dernières données d'inventaire pour voir les prédictions.",
+    "btnUpload": "Télécharger des données"
+  }
+}

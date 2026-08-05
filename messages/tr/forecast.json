@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Talep Tahmini",
+    "subtitle": "Satış geçmişinize dayalı olarak önümüzdeki 7 gün için yapay zeka destekli tahminler.",
+    "stats": {
+      "avgAccuracy": "Ortalama Kesinlik",
+      "projectedSales": "Tahmini Satışlar (7 gün)",
+      "wasteRisk": "Atık Risk Düzeyi",
+      "wasteRiskSub": "İşlem önerilir",
+      "riskLow": "DÜŞÜK",
+      "riskMedium": "ORTA",
+      "riskHigh": "YÜKSEK"
+    },
+    "alerts": {
+      "missingData": "Eksik Veri",
+      "missingDataDesc": "Tahmin verisi yok. Lütfen en güncel envanter verilerinizi yükleyin."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Ürünleri arayın...",
+    "btnFilter": "Filtre",
+    "colProduct": "Ürün",
+    "colStock": "Güncel Stok",
+    "colDemand": "Beklenen Talep (7g)",
+    "colConfidence": "Kendinden emin",
+    "colRisk": "Atık Riski",
+    "action": "Aksiyon",
+    "btnManage": "Üstesinden gelmek",
+    "empty": "Henüz tahmin verisi yok.",
+    "emptyDesc": "Tahminler oluşturmak için satış ve envanter verilerinizi yükleyin.",
+    "btnUpload": "Veri Yükle"
+  }
+}

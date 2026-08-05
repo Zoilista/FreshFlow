@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Impostazioni",
+    "subtitle": "Gestisci il tuo account, le tue preferenze e i dettagli della tua organizzazione.",
+    "tabs": {
+      "profile": "Profilo",
+      "preferences": "Preferenze",
+      "billing": "Fatturazione"
+    },
+    "profile": {
+      "title": "Profilo aziendale",
+      "desc": "Le informazioni pubbliche sulla tua attività visibili agli acquirenti.",
+      "nameLabel": "Nome e cognome",
+      "businessLabel": "Nome dell'azienda",
+      "emailLabel": "Indirizzo e-mail",
+      "btnSave": "Salva modifiche",
+      "btnSaving": "Risparmio...",
+      "success": "Profilo salvato con successo.",
+      "error": "Impossibile aggiornare il profilo.",
+      "btnEdit": "Modifica profilo",
+      "btnCancel": "Cancellare",
+      "notSet": "Non impostato"
+    },
+    "preferences": {
+      "title": "Preferenze dell'applicazione",
+      "desc": "Personalizza la tua esperienza.",
+      "languageLabel": "Lingua",
+      "currencyLabel": "Valuta",
+      "btnSave": "Salva preferenze"
+    },
+    "header": {
+      "title": "Impostazioni",
+      "subtitle": "Gestisci il tuo profilo aziendale, le notifiche e le preferenze di previsione."
+    },
+    "notifications": {
+      "title": "Notifiche",
+      "on": "SU",
+      "off": "SPENTO",
+      "highRiskAlerts": "Avvisi e-mail per articoli in eccedenza ad alto rischio",
+      "weeklySummary": "E-mail settimanale di riepilogo dell'impatto",
+      "buyerResponses": "Nuove notifiche di risposta dell'acquirente",
+      "leaderboardUpdates": "Aggiornamenti della classifica della classifica",
+      "competitionReminders": "Promemoria mensili della competizione"
+    },
+    "forecastSettings": {
+      "title": "Impostazioni delle previsioni",
+      "periodLabel": "Periodo di previsione",
+      "riskLabel": "Soglia di rischio elevato",
+      "riskDesc1": "Prodotti con rischio eccedente sopra",
+      "riskDesc2": "% verrà contrassegnato come",
+      "riskDesc3": "ALTO",
+      "currencyLabel": "Valuta"
+    },
+    "danger": {
+      "title": "Zona pericolosa",
+      "desc": "Queste azioni sono permanenti e non possono essere annullate.",
+      "btnDeleteData": "Elimina tutti i dati caricati",
+      "btnDeleteAccount": "Elimina account",
+      "confirmDelete": "Sei sicuro di voler eliminare tutti i dati caricati? Questa operazione non può essere annullata."
+    },
+    "fields": {
+      "full_name": "Nome e cognome",
+      "business_name": "Nome dell'azienda",
+      "business_type": "Tipo di attività",
+      "city": "Città",
+      "country": "Paese",
+      "email": "Contatto e-mail"
+    }
+  }
+}

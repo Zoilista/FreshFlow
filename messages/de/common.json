@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow – Stoppen Sie die Verschwendung frischer Lebensmittel, bevor sie entsteht",
+    "description": "KI-gestützte Nachfrageprognose und Überschussabgleich für unabhängige Großhändler, Einzelhändler und Restaurants in ganz Europa. Abfall reduzieren, Einnahmen erzielen."
+  },
+  "loading": "Laden...",
+  "error": "Es ist ein Fehler aufgetreten.",
+  "save": "Speichern",
+  "cancel": "Stornieren",
+  "confirm": "Bestätigen",
+  "delete": "Löschen",
+  "close": "Schließen",
+  "language": "Sprache"
+}

@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Aktif Teklifler",
+    "subtitle": "Alıcılar veya bağış için indirimli envanter mevcuttur.",
+    "stats": {
+      "activeOffers": "Aktif Teklifler",
+      "totalValue": "Toplam Değer",
+      "potential": "İyileşme Potansiyeli"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Teklifleri ara...",
+    "statusActive": "Aktif",
+    "statusPending": "Askıda olması",
+    "statusClosed": "Kapalı",
+    "colProduct": "Ürün",
+    "colPrice": "Teklif Fiyatı",
+    "colQty": "Miktar",
+    "colStatus": "Durum",
+    "colExpires": "Sona Erme Tarihi",
+    "colAction": "Aksiyon",
+    "btnView": "Ayrıntıları Görüntüle",
+    "empty": "Henüz aktif teklif yok.",
+    "emptyDesc": "Değeri geri kazanmak için fazla envanterinizden teklifler oluşturun.",
+    "btnSurplus": "Fazlalığı Görüntüle"
+  }
+}

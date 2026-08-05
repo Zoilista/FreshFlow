@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Actieve aanbiedingen",
+    "subtitle": "Inventaris met korting beschikbaar voor kopers of donaties.",
+    "stats": {
+      "activeOffers": "Actieve aanbiedingen",
+      "totalValue": "Totale waarde",
+      "potential": "Herstelpotentieel"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Zoek aanbiedingen...",
+    "statusActive": "Actief",
+    "statusPending": "In behandeling",
+    "statusClosed": "Gesloten",
+    "colProduct": "Product",
+    "colPrice": "Aanbiedingsprijs",
+    "colQty": "Hoeveelheid",
+    "colStatus": "Status",
+    "colExpires": "Verloopt over",
+    "colAction": "Actie",
+    "btnView": "Details bekijken",
+    "empty": "Nog geen actieve aanbiedingen.",
+    "emptyDesc": "Maak aanbiedingen op basis van uw overtollige voorraad om waarde te herstellen.",
+    "btnSurplus": "Bekijk Overschot"
+  }
+}

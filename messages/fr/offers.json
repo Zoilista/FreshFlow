@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Offres actives",
+    "subtitle": "Inventaire à prix réduit disponible pour les acheteurs ou les dons.",
+    "stats": {
+      "activeOffers": "Offres actives",
+      "totalValue": "Valeur totale",
+      "potential": "Potentiel de récupération"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Rechercher des offres...",
+    "statusActive": "Actif",
+    "statusPending": "En attente",
+    "statusClosed": "Fermé",
+    "colProduct": "Produit",
+    "colPrice": "Prix ​​de l'offre",
+    "colQty": "Quantité",
+    "colStatus": "Statut",
+    "colExpires": "Expire dans",
+    "colAction": "Action",
+    "btnView": "Afficher les détails",
+    "empty": "Aucune offre active pour l'instant.",
+    "emptyDesc": "Créez des offres à partir de votre inventaire excédentaire pour récupérer de la valeur.",
+    "btnSurplus": "Voir l'excédent"
+  }
+}

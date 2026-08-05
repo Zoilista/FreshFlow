@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Active Offers",
+    "subtitle": "Discounted inventory available for buyers or donation.",
+    "stats": {
+      "activeOffers": "Active Offers",
+      "totalValue": "Total Value",
+      "potential": "Recovery Potential"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Search offers...",
+    "statusActive": "Active",
+    "statusPending": "Pending",
+    "statusClosed": "Closed",
+    "colProduct": "Product",
+    "colPrice": "Offer Price",
+    "colQty": "Quantity",
+    "colStatus": "Status",
+    "colExpires": "Expires In",
+    "colAction": "Action",
+    "btnView": "View Details",
+    "empty": "No active offers yet.",
+    "emptyDesc": "Create offers from your surplus inventory to recover value.",
+    "btnSurplus": "View Surplus"
+  }
+}

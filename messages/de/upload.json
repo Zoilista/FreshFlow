@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Lagerdaten hochladen",
+    "subtitle": "Laden Sie Ihre neuesten Verkaufs- und Lagerdaten hoch, um aktuelle Prognosen zu erstellen.",
+    "btnDownloadTemplate": "Laden Sie die CSV-Vorlage herunter",
+    "uploadBox": {
+      "title": "Klicken Sie zum Hochladen",
+      "desc": "oder per Drag & Drop",
+      "formats": "CSV oder Excel (max. 10 MB)",
+      "uploading": "Hochladen und Analysieren...",
+      "processing": "Daten werden verarbeitet...",
+      "success": "Hochladen erfolgreich!"
+    },
+    "validation": {
+      "title": "Datenvalidierung",
+      "row": "Zeile {row}",
+      "rowsValid": "{count} Zeilen gültig",
+      "errorsFound": "{count} Fehler gefunden",
+      "noErrors": "Perfekt! Ihre Daten stehen zur Verarbeitung bereit."
+    }
+  }
+}

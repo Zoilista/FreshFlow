@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Ustawienia",
+    "subtitle": "Zarządzaj swoim kontem, preferencjami i szczegółami organizacji.",
+    "tabs": {
+      "profile": "Profil",
+      "preferences": "Preferencje",
+      "billing": "Rozliczenia"
+    },
+    "profile": {
+      "title": "Profil firmy",
+      "desc": "Publiczne informacje o Twojej firmie widoczne dla kupujących.",
+      "nameLabel": "Pełne imię i nazwisko",
+      "businessLabel": "Nazwa firmy",
+      "emailLabel": "Adres e-mail",
+      "btnSave": "Zapisz zmiany",
+      "btnSaving": "Oszczędność...",
+      "success": "Profil został pomyślnie zapisany.",
+      "error": "Nie udało się zaktualizować profilu.",
+      "btnEdit": "Edytuj profil",
+      "btnCancel": "Anulować",
+      "notSet": "Nie ustawiono"
+    },
+    "preferences": {
+      "title": "Preferencje aplikacji",
+      "desc": "Dostosuj swoje doświadczenie.",
+      "languageLabel": "Język",
+      "currencyLabel": "Waluta",
+      "btnSave": "Zapisz preferencje"
+    },
+    "header": {
+      "title": "Ustawienia",
+      "subtitle": "Zarządzaj profilem swojej firmy, powiadomieniami i preferencjami prognoz."
+    },
+    "notifications": {
+      "title": "Powiadomienia",
+      "on": "NA",
+      "off": "WYŁĄCZONY",
+      "highRiskAlerts": "Alerty e-mail dotyczące nadwyżek towarów wysokiego ryzyka",
+      "weeklySummary": "Cotygodniowe e-maile z podsumowaniem wpływu",
+      "buyerResponses": "Powiadomienia o odpowiedziach nowych kupujących",
+      "leaderboardUpdates": "Aktualizacje rankingów liderów",
+      "competitionReminders": "Comiesięczne przypomnienia o konkursach"
+    },
+    "forecastSettings": {
+      "title": "Ustawienia prognozy",
+      "periodLabel": "Okres prognozy",
+      "riskLabel": "Próg wysokiego ryzyka",
+      "riskDesc1": "Produkty z dodatkowym ryzykiem powyżej",
+      "riskDesc2": "% zostanie oznaczony jako",
+      "riskDesc3": "WYSOKI",
+      "currencyLabel": "Waluta"
+    },
+    "danger": {
+      "title": "Strefa zagrożenia",
+      "desc": "Działania te są trwałe i nie można ich cofnąć.",
+      "btnDeleteData": "Usuń wszystkie przesłane dane",
+      "btnDeleteAccount": "Usuń konto",
+      "confirmDelete": "Czy na pewno chcesz usunąć wszystkie przesłane dane? Tego nie można cofnąć."
+    },
+    "fields": {
+      "full_name": "Pełne imię i nazwisko",
+      "business_name": "Nazwa firmy",
+      "business_type": "Rodzaj działalności",
+      "city": "Miasto",
+      "country": "Kraj",
+      "email": "Kontakt e-mail"
+    }
+  }
+}

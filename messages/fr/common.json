@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow — Arrêtez le gaspillage alimentaire avant qu'il ne se produise",
+    "description": "Prévision de la demande basée sur l'IA et correspondance des excédents pour les grossistes, détaillants et restaurants indépendants à travers l'Europe. Réduisez les déchets, récupérez les revenus."
+  },
+  "loading": "Chargement...",
+  "error": "Une erreur s'est produite.",
+  "save": "Sauvegarder",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "delete": "Supprimer",
+  "close": "Fermer",
+  "language": "Langue"
+}

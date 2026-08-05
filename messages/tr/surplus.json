@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Fazlalık Yönetimi",
+    "subtitle": "Yüksek riskli envanteri atık haline gelmeden yönetin.",
+    "stats": {
+      "itemsAtRisk": "Risk Altındaki Öğeler",
+      "totalValue": "Toplam Riske Maruz Değer",
+      "co2": "Avustralya, Brezilya ve Kuzey Amerika ülkelerinin kullandığı saat uygulaması. CO₂ Ayak İzi",
+      "safe": "Tüm öğeler güvende"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Ürünleri arayın...",
+    "all": "Tüm",
+    "highRisk": "Yüksek Risk",
+    "mediumRisk": "Orta Risk",
+    "lowRisk": "Düşük Risk",
+    "colProduct": "Ürün",
+    "colSurplus": "Fazla Adet",
+    "colRisk": "Risk Düzeyi",
+    "colEstLoss": "Avustralya, Brezilya ve Kuzey Amerika ülkelerinin kullandığı saat uygulaması. Kayıp",
+    "colConfidence": "Kendinden emin",
+    "colAction": "Aksiyon",
+    "btnCreate": "Teklif Oluştur",
+    "riskCritical": "KRİTİK",
+    "riskHigh": "YÜKSEK",
+    "riskMedium": "ORTA",
+    "riskLow": "DÜŞÜK",
+    "empty": "Henüz fazlalık tahmini yok.",
+    "emptyDesc": "Tahminleri görmek için en son envanter verilerinizi yükleyin.",
+    "btnUpload": "Veri Yükle"
+  }
+}

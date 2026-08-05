@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Start preventing waste today. No hidden fees, cancel anytime.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "save20": "Save 20%",
+    "getStarted": "Get Started",
+    "contactSales": "Contact Sales",
+    "starter": {
+      "name": "Starter",
+      "desc": "Perfect for single-location restaurants and small retailers.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "Up to 500 products tracked",
+      "f2": "Basic demand forecasting",
+      "f3": "Email surplus alerts",
+      "f4": "Standard support"
+    },
+    "pro": {
+      "name": "Professional",
+      "desc": "For busy wholesalers and multi-location businesses.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Unlimited products tracked",
+      "f2": "Advanced AI forecasting",
+      "f3": "Automated B2B offers",
+      "f4": "Priority support"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Informe de impacto",
+    "subtitle": "Realice un seguimiento del impacto ambiental y financiero de sus esfuerzos de reducción de residuos.",
+    "stats": {
+      "wastePrevented": "Residuos Prevenidos",
+      "revenueSaved": "Ingresos ahorrados",
+      "co2Avoided": "CO₂ evitado"
+    },
+    "chart": {
+      "title": "Tendencias del impacto ambiental",
+      "wasteLabel": "Residuos Prevenidos (kg)",
+      "co2Label": "CO₂ evitado (kg)",
+      "month": "Mes"
+    },
+    "details": {
+      "title": "Desglose mensual",
+      "colPeriod": "Período",
+      "colWaste": "Residuos Prevenidos",
+      "colRevenue": "Ingresos ahorrados",
+      "colCO2": "CO₂ evitado",
+      "empty": "Aún no hay datos de impacto disponibles.",
+      "emptyDesc": "Sus métricas de impacto aparecerán aquí una vez que comience a prevenir el desperdicio."
+    }
+  }
+}

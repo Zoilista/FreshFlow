@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Ajustes",
+    "subtitle": "Administre su cuenta, preferencias y detalles de la organización.",
+    "tabs": {
+      "profile": "Perfil",
+      "preferences": "Preferencias",
+      "billing": "Facturación"
+    },
+    "profile": {
+      "title": "Perfil comercial",
+      "desc": "La información pública de su empresa visible para los compradores.",
+      "nameLabel": "Nombre completo",
+      "businessLabel": "Nombre comercial",
+      "emailLabel": "Dirección de correo electrónico",
+      "btnSave": "Guardar cambios",
+      "btnSaving": "Ahorro...",
+      "success": "Perfil guardado exitosamente.",
+      "error": "No se pudo actualizar el perfil.",
+      "btnEdit": "Editar perfil",
+      "btnCancel": "Cancelar",
+      "notSet": "No establecido"
+    },
+    "preferences": {
+      "title": "Preferencias de aplicación",
+      "desc": "Personaliza tu experiencia.",
+      "languageLabel": "Idioma",
+      "currencyLabel": "Divisa",
+      "btnSave": "Guardar preferencias"
+    },
+    "header": {
+      "title": "Ajustes",
+      "subtitle": "Administre su perfil comercial, notificaciones y preferencias de pronóstico."
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "on": "EN",
+      "off": "APAGADO",
+      "highRiskAlerts": "Alertas por correo electrónico para artículos excedentes de alto riesgo",
+      "weeklySummary": "Correo electrónico de resumen de impacto semanal",
+      "buyerResponses": "Notificaciones de respuesta de nuevos compradores",
+      "leaderboardUpdates": "Actualizaciones de clasificación de la tabla de clasificación",
+      "competitionReminders": "Recordatorios mensuales de competición"
+    },
+    "forecastSettings": {
+      "title": "Configuración de pronóstico",
+      "periodLabel": "Período de pronóstico",
+      "riskLabel": "Umbral de alto riesgo",
+      "riskDesc1": "Productos con exceso de riesgo por encima",
+      "riskDesc2": "% será marcado como",
+      "riskDesc3": "ALTO",
+      "currencyLabel": "Divisa"
+    },
+    "danger": {
+      "title": "Zona de peligro",
+      "desc": "Estas acciones son permanentes y no se pueden deshacer.",
+      "btnDeleteData": "Eliminar todos los datos cargados",
+      "btnDeleteAccount": "Eliminar cuenta",
+      "confirmDelete": "¿Está seguro de que desea eliminar todos los datos cargados? Esto no se puede deshacer."
+    },
+    "fields": {
+      "full_name": "Nombre completo",
+      "business_name": "Nombre comercial",
+      "business_type": "Tipo de negocio",
+      "city": "Ciudad",
+      "country": "País",
+      "email": "Correo electrónico de contacto"
+    }
+  }
+}

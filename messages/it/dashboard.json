@@ -1,0 +1,101 @@
+{
+  "greeting": "Buongiorno",
+  "requiresAttention": "Richiede attenzione",
+  "uploadNewData": "Carica nuovi dati",
+  "viewForecast": "Visualizza previsioni",
+  "productsTracked": "Prodotti tracciati",
+  "highRiskItems": "Articoli ad alto rischio",
+  "foodSaved": "Cibo salvato",
+  "recommendedActions": "Azioni consigliate",
+  "leaderboard": {
+    "title": "🏆 Classifica di Amsterdam",
+    "rank": "Sei al posto #{rank} su {total} aziende",
+    "viewFull": "Visualizza classifica completa →"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Carica",
+    "forecast": "Previsioni",
+    "surplus": "Eccedenze",
+    "offers": "Offerte",
+    "impact": "Impatto",
+    "settings": "Impostazioni"
+  },
+  "header": {
+    "searchPlaceholder": "Cerca inventario...",
+    "notifications": "Notifiche",
+    "profile": "Profilo",
+    "signOut": "Esci",
+    "loading": "Caricamento…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Buongiorno",
+      "afternoon": "Buon pomeriggio",
+      "evening": "Buonasera",
+      "welcome": "Benvenuto"
+    },
+    "empty": {
+      "subtitle": "Impostiamo i dati del tuo inventario.",
+      "getStarted": "Inizia",
+      "title": "Carica il tuo primo file di dati per sbloccare le previsioni",
+      "desc": "Ci vogliono meno di 5 minuti. Carica un file CSV o Excel con i tuoi dati di vendita e di magazzino per vedere le previsioni della domanda, l'analisi dei rischi e le metriche di impatto.",
+      "btn": "Carica ora →"
+    },
+    "banner": {
+      "subtitle": "Ecco lo stato del tuo inventario — ultimo aggiornamento {time}.",
+      "uploadBtn": "Carica nuovi dati",
+      "forecastBtn": "Visualizza previsioni →"
+    },
+    "urgent": {
+      "title": "Richiede attenzione",
+      "subtitle": "({count} articoli urgenti)",
+      "riskScore": "Punteggio di rischio: {score}/100",
+      "atRisk": "{value} a rischio",
+      "btn": "Crea offerta →"
+    },
+    "stats": {
+      "products": "Prodotti tracciati",
+      "productsSub": "{count} previsioni generate",
+      "highRisk": "Articoli ad alto rischio",
+      "highRiskSubSafe": "Tutti gli articoli al sicuro",
+      "highRiskSub": "{value} a rischio",
+      "foodSaved": "Cibo salvato (Totale)",
+      "foodSavedSub": "{value} t di CO₂ evitate"
+    },
+    "actions": {
+      "title": "Azioni consigliate",
+      "urgentTitle": "{count} articoli ad alto rischio richiedono attenzione",
+      "urgentDesc": "{value} di potenziale perdita",
+      "urgentBtn": "Crea offerte",
+      "forecastTitle": "Ultime previsioni pronte",
+      "forecastDesc": "Basato su {file}",
+      "forecastBtn": "Visualizza previsioni",
+      "impactTitle": "Hai evitato {value} di spreco alimentare",
+      "impactDesc": "{value} entrate salvate",
+      "impactBtn": "Vedi rapporto di impatto",
+      "uploadTitle": "Mantieni le previsioni accurate",
+      "uploadDesc": "Carica nuovi dati settimanalmente per risultati ottimali",
+      "uploadBtn": "Carica dati"
+    },
+    "recent": {
+      "title": "Attività recente",
+      "upload": "Dati caricati — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} articoli ad alto rischio</strong> rilevati nelle previsioni",
+      "impact": "Impatto aggiornato — <strong>{value}</strong> di sprechi evitati in totale",
+      "today": "Oggi",
+      "viewAll": "Visualizza tutte le previsioni →"
+    },
+    "quick": {
+      "title": "Azioni rapide",
+      "manageSurplus": "Gestisci eccedenze"
+    },
+    "lastUpload": {
+      "title": "Ultimo caricamento",
+      "validRows": "{count} righe valide",
+      "products": "{count} prodotti",
+      "processed": "Elaborato",
+      "btn": "Carica nuovo →"
+    }
+  }
+}

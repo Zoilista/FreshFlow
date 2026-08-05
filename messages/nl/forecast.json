@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Vraagprognose",
+    "subtitle": "Door AI aangedreven voorspellingen voor de komende zeven dagen op basis van uw verkoopgeschiedenis.",
+    "stats": {
+      "avgAccuracy": "Gem. Nauwkeurigheid",
+      "projectedSales": "Verwachte omzet (7d)",
+      "wasteRisk": "Afvalrisiconiveau",
+      "wasteRiskSub": "Actie aanbevolen",
+      "riskLow": "LAAG",
+      "riskMedium": "MEDIUM",
+      "riskHigh": "HOOG"
+    },
+    "alerts": {
+      "missingData": "Ontbrekende gegevens",
+      "missingDataDesc": "Geen voorspellingsgegevens beschikbaar. Upload uw meest recente voorraadgegevens."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Producten zoeken...",
+    "btnFilter": "Filter",
+    "colProduct": "Product",
+    "colStock": "Huidige voorraad",
+    "colDemand": "Verwachte vraag (7d)",
+    "colConfidence": "Vertrouwen",
+    "colRisk": "Afvalrisico",
+    "action": "Actie",
+    "btnManage": "Beheren",
+    "empty": "Er zijn geen producten die overeenkomen met het geselecteerde filter.",
+    "emptyDesc": "Upload uw verkoop- en voorraadgegevens om prognoses te genereren.",
+    "btnUpload": "Gegevens uploaden",
+    "title": "Tabel met surplusrisico's",
+    "subtitle": "{filtered} van {total} getoonde producten",
+    "colCategory": "Categorie",
+    "colRiskLevel": "Risiconiveau",
+    "colRiskScore": "Risicoscore",
+    "colAtRisk": "Bij risicowaarde",
+    "colAction": "Actie",
+    "createOffer": "Aanbieding maken",
+    "monitor": "Monitor"
+  }
+}

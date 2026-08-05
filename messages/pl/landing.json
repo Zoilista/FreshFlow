@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Produkt",
+    "pricing": "Cennik",
+    "login": "Zaloguj się",
+    "getStarted": "Rozpocznij"
+  },
+  "hero": {
+    "badge": "NOWOŚĆ: Zarządzanie nadwyżkami za pomocą AI",
+    "title1": "Zatrzymaj marnowanie świeżej żywności",
+    "title2": "Zanim to się stanie",
+    "subtitle": "Dołącz do setek niezależnych firm spożywczych, które używają AI do dokładnego prognozowania popytu, zapobiegania zawyżonym zamówieniom i zamieniania nadwyżek zapasów w odzyskane przychody.",
+    "cta": "Rozpocznij bezpłatny okres próbny",
+    "demo": "Zarezerwuj demo"
+  },
+  "features": {
+    "title": "Wszystko, czego potrzebujesz, aby prowadzić operację bez odpadów",
+    "subtitle": "Stworzone dla niezależnych hurtowników, detalistów i restauracji.",
+    "f1Title": "Prognozowanie popytu",
+    "f1Desc": "Prześlij historię sprzedaży i pozwól naszej sztucznej inteligencji dokładnie przewidzieć, ile świeżej żywności potrzebujesz na kolejne 7 dni.",
+    "f2Title": "Alerty o nadwyżkach",
+    "f2Desc": "Otrzymuj powiadomienia, zanim produkty stracą ważność. Identyfikujemy zapasy o wysokim ryzyku, dzięki czemu możesz wcześnie podjąć działania.",
+    "f3Title": "Zautomatyzowane oferty",
+    "f3Desc": "Zamień nadwyżki na przychody, natychmiast tworząc oferty ze zniżką dla kupujących B2B lub lokalnych organizacji charytatywnych."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Wszelkie prawa zastrzeżone.",
+    "terms": "Warunki świadczenia usług",
+    "privacy": "Polityka prywatności"
+  }
+}

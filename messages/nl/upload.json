@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Voorraadgegevens uploaden",
+    "subtitle": "Upload uw laatste verkoop- en voorraadgegevens om nieuwe prognoses te genereren.",
+    "btnDownloadTemplate": "CSV-sjabloon downloaden",
+    "uploadBox": {
+      "title": "Klik om te uploaden",
+      "desc": "of slepen en neerzetten",
+      "formats": "CSV of Excel (max. 10MB)",
+      "uploading": "Uploaden en analyseren...",
+      "processing": "Gegevens verwerken...",
+      "success": "Uploaden gelukt!"
+    },
+    "validation": {
+      "title": "Gegevensvalidatie",
+      "row": "Rij {row}",
+      "rowsValid": "{count} rijen geldig",
+      "errorsFound": "{count} fouten gevonden",
+      "noErrors": "Perfect! Uw gegevens zijn klaar om te worden verwerkt."
+    }
+  }
+}

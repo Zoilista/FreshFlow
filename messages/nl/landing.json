@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Product",
+    "pricing": "Prijzen",
+    "login": "Inloggen",
+    "getStarted": "Aan de slag"
+  },
+  "hero": {
+    "badge": "NIEUW: AI-gestuurd overschotbeheer",
+    "title1": "Stop voedselverspilling",
+    "title2": "Voordat het gebeurt",
+    "subtitle": "Sluit je aan bij honderden onafhankelijke voedingsbedrijven die AI gebruiken om de vraag nauwkeurig te voorspellen, overbestelling te voorkomen en overtollige voorraad om te zetten in herwonnen omzet.",
+    "cta": "Start je gratis proefperiode",
+    "demo": "Boek een demo"
+  },
+  "features": {
+    "title": "Alles wat je nodig hebt voor een zero-waste operatie",
+    "subtitle": "Speciaal gebouwd voor onafhankelijke groothandels, retailers en restaurants.",
+    "f1Title": "Vraagvoorspelling",
+    "f1Desc": "Upload je verkoopgeschiedenis en laat onze AI precies voorspellen hoeveel vers voedsel je de komende 7 dagen nodig hebt.",
+    "f2Title": "Overschotmeldingen",
+    "f2Desc": "Ontvang een melding voordat items vervallen. We identificeren risicovolle voorraad zodat je vroegtijdig actie kunt ondernemen.",
+    "f3Title": "Geautomatiseerde aanbiedingen",
+    "f3Desc": "Zet overschot om in inkomsten door direct aanbiedingen met korting te maken voor je B2B-kopers of lokale goede doelen."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Alle rechten voorbehouden.",
+    "terms": "Servicevoorwaarden",
+    "privacy": "Privacybeleid"
+  }
+}

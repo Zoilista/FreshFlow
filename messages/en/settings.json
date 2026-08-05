@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Settings",
+    "subtitle": "Manage your account, preferences, and organization details.",
+    "tabs": {
+      "profile": "Profile",
+      "preferences": "Preferences",
+      "billing": "Billing"
+    },
+    "profile": {
+      "title": "Business Profile",
+      "desc": "Your public business information visible to buyers.",
+      "nameLabel": "Full Name",
+      "businessLabel": "Business Name",
+      "emailLabel": "Email Address",
+      "btnSave": "Save Changes",
+      "btnSaving": "Saving...",
+      "success": "Profile saved successfully.",
+      "error": "Failed to update profile.",
+      "btnEdit": "Edit Profile",
+      "btnCancel": "Cancel",
+      "notSet": "Not set"
+    },
+    "preferences": {
+      "title": "Application Preferences",
+      "desc": "Customize your experience.",
+      "languageLabel": "Language",
+      "currencyLabel": "Currency",
+      "btnSave": "Save Preferences"
+    },
+    "header": {
+      "title": "Settings",
+      "subtitle": "Manage your business profile, notifications and forecast preferences."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "on": "ON",
+      "off": "OFF",
+      "highRiskAlerts": "Email alerts for high-risk surplus items",
+      "weeklySummary": "Weekly impact summary email",
+      "buyerResponses": "New buyer response notifications",
+      "leaderboardUpdates": "Leaderboard ranking updates",
+      "competitionReminders": "Monthly competition reminders"
+    },
+    "forecastSettings": {
+      "title": "Forecast Settings",
+      "periodLabel": "Forecast Period",
+      "riskLabel": "High Risk Threshold",
+      "riskDesc1": "Products with surplus risk above ",
+      "riskDesc2": "% will be flagged as ",
+      "riskDesc3": "HIGH",
+      "currencyLabel": "Currency"
+    },
+    "danger": {
+      "title": "Danger Zone",
+      "desc": "These actions are permanent and cannot be undone.",
+      "btnDeleteData": "Delete All Uploaded Data",
+      "btnDeleteAccount": "Delete Account",
+      "confirmDelete": "Are you sure you want to delete all uploaded data? This cannot be undone."
+    },
+    "fields": {
+      "full_name": "Full Name",
+      "business_name": "Business Name",
+      "business_type": "Business Type",
+      "city": "City",
+      "country": "Country",
+      "email": "Contact Email"
+    }
+  }
+}

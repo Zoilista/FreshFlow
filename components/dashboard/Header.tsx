@@ -1,20 +1,13 @@
 'use client';
 
 import { useMemo } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/routing';
+import { useTranslations } from 'next-intl';
 import { useUser } from '@/lib/hooks/useUser';
 import { createClient } from '@/lib/supabase/client';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
-// Sayfa adlarını pathname'den çıkarmak için yardımcı
-const pageTitles: Record<string, string> = {
-  '/dashboard': 'Dashboard',
-  '/upload':    'Upload Data',
-  '/forecast':  'Forecast',
-  '/surplus':   'Surplus Management',
-  '/offers':    'Offers',
-  '/impact':    'Impact Report',
-  '/settings':  'Settings',
-};
+// We will use translations for page titles based on pathname
 
 // Avatar için baş harfleri hesapla
 function getInitials(
@@ -32,9 +25,23 @@ function getInitials(
 }
 
 export default function Header() {
+  const t = useTranslations('dashboard.header');
+  const tNav = useTranslations('dashboard.nav');
   const pathname = usePathname();
   const router   = useRouter();
-  const title    = pageTitles[pathname] ?? 'FreshFlow';
+  
+  const getPageTitle = (path: string) => {
+    if (path.startsWith('/dashboard')) return tNav('dashboard');
+    if (path.startsWith('/upload')) return tNav('upload');
+    if (path.startsWith('/forecast')) return tNav('forecast');
+    if (path.startsWith('/surplus')) return tNav('surplus');
+    if (path.startsWith('/offers')) return tNav('offers');
+    if (path.startsWith('/impact')) return tNav('impact');
+    if (path.startsWith('/settings')) return tNav('settings');
+    return 'FreshFlow';
+  };
+
+  const title = getPageTitle(pathname);
 
   const { user, profile, loading } = useUser();
 
@@ -72,8 +79,22 @@ export default function Header() {
 
       {/* Right Side */}
       <div className="flex items-center gap-4">
+        {/* Search */}
+        <div className="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            type="text"
+            placeholder={t('searchPlaceholder')}
+            className="w-64 bg-gray-50 border border-gray-100 rounded-lg pl-9 pr-4 py-2 text-sm text-gray-700 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
+          />
+        </div>
+
+        <LanguageSwitcher />
+
         {/* Notification Bell */}
-        <button className="relative p-2 rounded-xl text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors duration-150">
+        <button className="relative p-2 rounded-xl text-gray-400 hover:bg-gray-100 hover:text-gray-600 transition-colors duration-150" aria-label={t('notifications')}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"

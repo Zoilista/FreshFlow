@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Rapport d'impact",
+    "subtitle": "Suivez l’impact environnemental et financier de vos efforts de réduction des déchets.",
+    "stats": {
+      "wastePrevented": "Déchets évités",
+      "revenueSaved": "Revenus économisés",
+      "co2Avoided": "CO₂ évité"
+    },
+    "chart": {
+      "title": "Tendances en matière d'impact environnemental",
+      "wasteLabel": "Déchets évités (kg)",
+      "co2Label": "CO₂ évité (kg)",
+      "month": "Mois"
+    },
+    "details": {
+      "title": "Répartition mensuelle",
+      "colPeriod": "Période",
+      "colWaste": "Déchets évités",
+      "colRevenue": "Revenus économisés",
+      "colCO2": "CO₂ évité",
+      "empty": "Aucune donnée d’impact disponible pour l’instant.",
+      "emptyDesc": "Vos mesures d’impact apparaîtront ici une fois que vous aurez commencé à prévenir le gaspillage."
+    }
+  }
+}

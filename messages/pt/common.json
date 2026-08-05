@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow — Evite o desperdício de alimentos frescos antes que isso aconteça",
+    "description": "Previsão de procura baseada em IA e correspondência de excedentes para grossistas, retalhistas e restaurantes independentes em toda a Europa. Reduza o desperdício, recupere receitas."
+  },
+  "loading": "Carregando...",
+  "error": "Ocorreu um erro.",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "delete": "Excluir",
+  "close": "Fechar",
+  "language": "Linguagem"
+}

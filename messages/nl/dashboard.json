@@ -1,0 +1,101 @@
+{
+  "greeting": "Goedemorgen",
+  "requiresAttention": "Vereist aandacht",
+  "uploadNewData": "Nieuwe data uploaden",
+  "viewForecast": "Bekijk voorspelling",
+  "productsTracked": "Gevolgde producten",
+  "highRiskItems": "Risicovolle items",
+  "foodSaved": "Gered voedsel",
+  "recommendedActions": "Aanbevolen acties",
+  "leaderboard": {
+    "title": "🏆 Amsterdam Ranglijst",
+    "rank": "Je staat op plaats #{rank} van {total} bedrijven",
+    "viewFull": "Bekijk volledige ranglijst →"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Uploaden",
+    "forecast": "Voorspelling",
+    "surplus": "Overschot",
+    "offers": "Aanbiedingen",
+    "impact": "Impact",
+    "settings": "Instellingen"
+  },
+  "header": {
+    "searchPlaceholder": "Zoek voorraad...",
+    "notifications": "Meldingen",
+    "profile": "Profiel",
+    "signOut": "Uitloggen",
+    "loading": "Laden…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Goedemorgen",
+      "afternoon": "Goedemiddag",
+      "evening": "Goedenavond",
+      "welcome": "Welkom"
+    },
+    "empty": {
+      "subtitle": "Laten we je voorraaddata instellen.",
+      "getStarted": "Aan de slag",
+      "title": "Upload je eerste databestand om voorspellingen te ontgrendelen",
+      "desc": "Het duurt minder dan 5 minuten. Upload een CSV- of Excel-bestand met je verkoop- en voorraaddata om vraagvoorspellingen, risicoanalyses en impactstatistieken te zien.",
+      "btn": "Nu uploaden →"
+    },
+    "banner": {
+      "subtitle": "Hier is je voorraadstatus — laatst bijgewerkt {time}.",
+      "uploadBtn": "Nieuwe data uploaden",
+      "forecastBtn": "Bekijk voorspelling →"
+    },
+    "urgent": {
+      "title": "Vereist aandacht",
+      "subtitle": "({count} urgente items)",
+      "riskScore": "Risicoscore: {score}/100",
+      "atRisk": "{value} in gevaar",
+      "btn": "Aanbieding maken →"
+    },
+    "stats": {
+      "products": "Gevolgde producten",
+      "productsSub": "{count} voorspellingen gegenereerd",
+      "highRisk": "Risicovolle items",
+      "highRiskSubSafe": "Alle items veilig",
+      "highRiskSub": "{value} in gevaar",
+      "foodSaved": "Gered voedsel (Totaal)",
+      "foodSavedSub": "{value} t CO₂ vermeden"
+    },
+    "actions": {
+      "title": "Aanbevolen acties",
+      "urgentTitle": "{count} risicovolle items vereisen aandacht",
+      "urgentDesc": "{value} potentieel verlies",
+      "urgentBtn": "Aanbiedingen maken",
+      "forecastTitle": "Nieuwste voorspelling klaar",
+      "forecastDesc": "Gebaseerd op {file}",
+      "forecastBtn": "Bekijk voorspelling",
+      "impactTitle": "Je hebt {value} voedselverspilling voorkomen",
+      "impactDesc": "{value} omzet gered",
+      "impactBtn": "Bekijk impactrapport",
+      "uploadTitle": "Houd voorspellingen accuraat",
+      "uploadDesc": "Upload wekelijks nieuwe data voor de beste resultaten",
+      "uploadBtn": "Data uploaden"
+    },
+    "recent": {
+      "title": "Recente activiteit",
+      "upload": "Data geüpload — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} risicovolle items</strong> gedetecteerd in voorspelling",
+      "impact": "Impact bijgewerkt — <strong>{value}</strong> verspilling voorkomen in totaal",
+      "today": "Vandaag",
+      "viewAll": "Bekijk alle voorspellingen →"
+    },
+    "quick": {
+      "title": "Snelle acties",
+      "manageSurplus": "Beheer overschot"
+    },
+    "lastUpload": {
+      "title": "Laatste upload",
+      "validRows": "{count} geldige rijen",
+      "products": "{count} producten",
+      "processed": "Verwerkt",
+      "btn": "Nieuw uploaden →"
+    }
+  }
+}

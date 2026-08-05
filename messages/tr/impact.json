@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Etki Raporu",
+    "subtitle": "Atık azaltma çabalarınızın çevresel ve mali etkilerini takip edin.",
+    "stats": {
+      "wastePrevented": "Atık Önlendi",
+      "revenueSaved": "Gelir Kaydedildi",
+      "co2Avoided": "CO₂ Önlendi"
+    },
+    "chart": {
+      "title": "Çevresel Etki Eğilimleri",
+      "wasteLabel": "Önlenen Atık (kg)",
+      "co2Label": "CO₂ Kaçınılması (kg)",
+      "month": "Ay"
+    },
+    "details": {
+      "title": "Aylık Döküm",
+      "colPeriod": "Dönem",
+      "colWaste": "Atık Önlendi",
+      "colRevenue": "Gelir Kaydedildi",
+      "colCO2": "CO₂ Önlendi",
+      "empty": "Henüz etki verisi mevcut değil.",
+      "emptyDesc": "İsrafı önlemeye başladığınızda etki ölçümleriniz burada görünecektir."
+    }
+  }
+}

@@ -1,0 +1,188 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Surplus
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+demo@freshflow.ai
+Loading…
+DE
+Surplus Management
+
+Manage high-risk inventory before it becomes waste.
+
+Items at Risk
+
+0
+
+Total Value at Risk
+
+All items safe
+
+Est. CO₂ Footprint
+
+0 kg
+
+Current Surplus Items
+All
+High Risk
+Medium Risk
+Low Risk
+Bread Rolls
+Uncategorised
+MEDIUM
+Confidence: low
+Create Offer
+
+Current Stock
+
+10 kg
+
+Demand (7d)
+
+606.6667 kg
+
+Surplus
+
+0 kg
+
+Est. Loss
+
+€0
+
+CO₂ Savings
+
+0.0 kg
+
+0 kg surplus out of 10 kg total stock
+0%
+Milk 2L
+Uncategorised
+MEDIUM
+Confidence: low
+Create Offer
+
+Current Stock
+
+22 kg
+
+Demand (7d)
+
+270.6667 kg
+
+Surplus
+
+0 kg
+
+Est. Loss
+
+€0
+
+CO₂ Savings
+
+0.0 kg
+
+0 kg surplus out of 22 kg total stock
+0%
+Tomatoes
+Uncategorised
+LOW
+Confidence: low
+Create Offer
+
+Current Stock
+
+150 kg
+
+Demand (7d)
+
+326.6667 kg
+
+Surplus
+
+0 kg
+
+Est. Loss
+
+€0
+
+CO₂ Savings
+
+0.0 kg
+
+0 kg surplus out of 150 kg total stock
+0%
+Strawberries
+Uncategorised
+LOW
+Confidence: low
+Create Offer
+
+Current Stock
+
+62 kg
+
+Demand (7d)
+
+130.6667 kg
+
+Surplus
+
+0 kg
+
+Est. Loss
+
+€0
+
+CO₂ Savings
+
+0.0 kg
+
+0 kg surplus out of 62 kg total stock
+0%
+Bananas
+Uncategorised
+LOW
+Confidence: low
+Create Offer
+
+Current Stock
+
+115 kg
+
+Demand (7d)
+
+233.3333 kg
+
+Surplus
+
+0 kg
+
+Est. Loss
+
+€0
+
+CO₂ Savings
+
+0.0 kg
+
+0 kg surplus out of 115 kg total stock
+0%

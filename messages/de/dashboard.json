@@ -1,0 +1,101 @@
+{
+  "greeting": "Guten Morgen",
+  "requiresAttention": "Erfordert Aufmerksamkeit",
+  "uploadNewData": "Neue Daten hochladen",
+  "viewForecast": "Prognose anzeigen",
+  "productsTracked": "Erfasste Produkte",
+  "highRiskItems": "Hochrisiko-Artikel",
+  "foodSaved": "Gerettete Lebensmittel",
+  "recommendedActions": "Empfohlene Aktionen",
+  "leaderboard": {
+    "title": "🏆 Amsterdam-Rangliste",
+    "rank": "Sie belegen Platz #{rank} von {total} Unternehmen",
+    "viewFull": "Gesamte Rangliste anzeigen →"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Hochladen",
+    "forecast": "Prognose",
+    "surplus": "Überschuss",
+    "offers": "Angebote",
+    "impact": "Wirkung",
+    "settings": "Einstellungen"
+  },
+  "header": {
+    "searchPlaceholder": "Inventar durchsuchen...",
+    "notifications": "Benachrichtigungen",
+    "profile": "Profil",
+    "signOut": "Abmelden",
+    "loading": "Wird geladen…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Guten Morgen",
+      "afternoon": "Guten Tag",
+      "evening": "Guten Abend",
+      "welcome": "Willkommen"
+    },
+    "empty": {
+      "subtitle": "Lassen Sie uns Ihre Inventardaten einrichten.",
+      "getStarted": "Loslegen",
+      "title": "Laden Sie Ihre erste Datendatei hoch, um Prognosen freizuschalten",
+      "desc": "Es dauert weniger als 5 Minuten. Laden Sie eine CSV- oder Excel-Datei mit Ihren Verkaufs- und Bestandsdaten hoch, um Nachfrageprognosen, Risikoanalysen und Wirkungsmetriken zu sehen.",
+      "btn": "Jetzt hochladen →"
+    },
+    "banner": {
+      "subtitle": "Hier ist Ihr Inventarstatus — zuletzt aktualisiert um {time}.",
+      "uploadBtn": "Neue Daten hochladen",
+      "forecastBtn": "Prognose anzeigen →"
+    },
+    "urgent": {
+      "title": "Erfordert Aufmerksamkeit",
+      "subtitle": "({count} dringende Artikel)",
+      "riskScore": "Risikobewertung: {score}/100",
+      "atRisk": "{value} gefährdet",
+      "btn": "Angebot erstellen →"
+    },
+    "stats": {
+      "products": "Erfasste Produkte",
+      "productsSub": "{count} Prognosen erstellt",
+      "highRisk": "Hochrisiko-Artikel",
+      "highRiskSubSafe": "Alle Artikel sicher",
+      "highRiskSub": "{value} gefährdet",
+      "foodSaved": "Gerettete Lebensmittel (Gesamt)",
+      "foodSavedSub": "{value} t CO₂ vermieden"
+    },
+    "actions": {
+      "title": "Empfohlene Aktionen",
+      "urgentTitle": "{count} Hochrisiko-Artikel erfordern Aufmerksamkeit",
+      "urgentDesc": "{value} potenzieller Verlust",
+      "urgentBtn": "Angebote erstellen",
+      "forecastTitle": "Neueste Prognose bereit",
+      "forecastDesc": "Basierend auf {file}",
+      "forecastBtn": "Prognose anzeigen",
+      "impactTitle": "Sie haben {value} Lebensmittelverschwendung verhindert",
+      "impactDesc": "{value} Einnahmen gerettet",
+      "impactBtn": "Wirkungsbericht anzeigen",
+      "uploadTitle": "Halten Sie Prognosen genau",
+      "uploadDesc": "Laden Sie wöchentlich neue Daten für beste Ergebnisse hoch",
+      "uploadBtn": "Daten hochladen"
+    },
+    "recent": {
+      "title": "Letzte Aktivität",
+      "upload": "Daten hochgeladen — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} Hochrisiko-Artikel</strong> in der Prognose erkannt",
+      "impact": "Wirkung aktualisiert — <strong>{value}</strong> Verschwendung insgesamt verhindert",
+      "today": "Heute",
+      "viewAll": "Alle Prognosen anzeigen →"
+    },
+    "quick": {
+      "title": "Schnellaktionen",
+      "manageSurplus": "Überschuss verwalten"
+    },
+    "lastUpload": {
+      "title": "Letzter Upload",
+      "validRows": "{count} gültige Zeilen",
+      "products": "{count} Produkte",
+      "processed": "Verarbeitet",
+      "btn": "Neu hochladen →"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Raport wpływu",
+    "subtitle": "Śledź wpływ środowiskowy i finansowy swoich wysiłków na rzecz ograniczenia ilości odpadów.",
+    "stats": {
+      "wastePrevented": "Zapobieganie powstawaniu odpadów",
+      "revenueSaved": "Zaoszczędzone przychody",
+      "co2Avoided": "Unikano CO₂"
+    },
+    "chart": {
+      "title": "Trendy wpływu na środowisko",
+      "wasteLabel": "Uniknięte odpady (kg)",
+      "co2Label": "Uniknięty CO₂ (kg)",
+      "month": "Miesiąc"
+    },
+    "details": {
+      "title": "Podział miesięczny",
+      "colPeriod": "Okres",
+      "colWaste": "Zapobieganie powstawaniu odpadów",
+      "colRevenue": "Zaoszczędzone przychody",
+      "colCO2": "Unikano CO₂",
+      "empty": "Nie są jeszcze dostępne żadne dane dotyczące wpływu.",
+      "emptyDesc": "Twoje wskaźniki wpływu pojawią się tutaj, gdy zaczniesz zapobiegać marnotrawieniu."
+    }
+  }
+}

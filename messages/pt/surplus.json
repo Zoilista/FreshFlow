@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Gestão de excedentes",
+    "subtitle": "Gerencie estoques de alto risco antes que se tornem desperdício.",
+    "stats": {
+      "itemsAtRisk": "Itens em risco",
+      "totalValue": "Valor total em risco",
+      "co2": "Husa. Pegada de CO₂",
+      "safe": "Todos os itens seguros"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Pesquisar produtos...",
+    "all": "Todos",
+    "highRisk": "Alto risco",
+    "mediumRisk": "Risco Médio",
+    "lowRisk": "Baixo risco",
+    "colProduct": "Produto",
+    "colSurplus": "Quantidade excedente",
+    "colRisk": "Nível de risco",
+    "colEstLoss": "Husa. Perda",
+    "colConfidence": "Confiança",
+    "colAction": "Ação",
+    "btnCreate": "Criar oferta",
+    "riskCritical": "CRÍTICO",
+    "riskHigh": "ALTO",
+    "riskMedium": "MÉDIO",
+    "riskLow": "BAIXO",
+    "empty": "Ainda não há previsões de superávit.",
+    "emptyDesc": "Faça upload dos dados de inventário mais recentes para ver as previsões.",
+    "btnUpload": "Carregar dados"
+  }
+}

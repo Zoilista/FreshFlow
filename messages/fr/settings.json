@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Paramètres",
+    "subtitle": "Gérez votre compte, vos préférences et les détails de votre organisation.",
+    "tabs": {
+      "profile": "Profil",
+      "preferences": "Préférences",
+      "billing": "Facturation"
+    },
+    "profile": {
+      "title": "Profil d'entreprise",
+      "desc": "Vos informations commerciales publiques visibles pour les acheteurs.",
+      "nameLabel": "Nom et prénom",
+      "businessLabel": "Nom de l'entreprise",
+      "emailLabel": "Adresse email",
+      "btnSave": "Enregistrer les modifications",
+      "btnSaving": "Économie...",
+      "success": "Profil enregistré avec succès.",
+      "error": "Échec de la mise à jour du profil.",
+      "btnEdit": "Modifier le profil",
+      "btnCancel": "Annuler",
+      "notSet": "Non défini"
+    },
+    "preferences": {
+      "title": "Préférences d'application",
+      "desc": "Personnalisez votre expérience.",
+      "languageLabel": "Langue",
+      "currencyLabel": "Devise",
+      "btnSave": "Enregistrer les préférences"
+    },
+    "header": {
+      "title": "Paramètres",
+      "subtitle": "Gérez votre profil d'entreprise, vos notifications et vos préférences de prévisions."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "on": "SUR",
+      "off": "DÉSACTIVÉ",
+      "highRiskAlerts": "Alertes par courrier électronique pour les articles excédentaires à haut risque",
+      "weeklySummary": "E-mail récapitulatif de l'impact hebdomadaire",
+      "buyerResponses": "Notifications de réponse aux nouveaux acheteurs",
+      "leaderboardUpdates": "Mises à jour du classement du classement",
+      "competitionReminders": "Rappels mensuels de compétition"
+    },
+    "forecastSettings": {
+      "title": "Paramètres de prévision",
+      "periodLabel": "Période de prévision",
+      "riskLabel": "Seuil de risque élevé",
+      "riskDesc1": "Produits avec risque excédentaire ci-dessus",
+      "riskDesc2": "% sera signalé comme",
+      "riskDesc3": "HAUT",
+      "currencyLabel": "Devise"
+    },
+    "danger": {
+      "title": "Zone dangereuse",
+      "desc": "Ces actions sont permanentes et ne peuvent être annulées.",
+      "btnDeleteData": "Supprimer toutes les données téléchargées",
+      "btnDeleteAccount": "Supprimer le compte",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer toutes les données téléchargées ? Cela ne peut pas être annulé."
+    },
+    "fields": {
+      "full_name": "Nom et prénom",
+      "business_name": "Nom de l'entreprise",
+      "business_type": "Type d'entreprise",
+      "city": "Ville",
+      "country": "Pays",
+      "email": "E-mail de contact"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Previsione della domanda",
+    "subtitle": "Previsioni basate sull'intelligenza artificiale per i prossimi 7 giorni in base alla cronologia delle vendite.",
+    "stats": {
+      "avgAccuracy": "Media Precisione",
+      "projectedSales": "Vendite previste (7d)",
+      "wasteRisk": "Livello di rischio rifiuti",
+      "wasteRiskSub": "Azione consigliata",
+      "riskLow": "BASSO",
+      "riskMedium": "MEDIO",
+      "riskHigh": "ALTO"
+    },
+    "alerts": {
+      "missingData": "Dati mancanti",
+      "missingDataDesc": "Nessun dato previsionale disponibile. Carica i dati di inventario più recenti."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Cerca prodotti...",
+    "btnFilter": "Filtro",
+    "colProduct": "Prodotto",
+    "colStock": "Scorte attuali",
+    "colDemand": "Domanda prevista (7d)",
+    "colConfidence": "Fiducia",
+    "colRisk": "Rischio rifiuti",
+    "action": "Azione",
+    "btnManage": "Maneggio",
+    "empty": "Nessun prodotto corrisponde al filtro selezionato.",
+    "emptyDesc": "Carica i dati sulle vendite e sull'inventario per generare previsioni.",
+    "btnUpload": "Carica dati",
+    "title": "Tabella del surplus di rischio",
+    "subtitle": "{filtered} dei prodotti {total} mostrati",
+    "colCategory": "Categoria",
+    "colRiskLevel": "Livello di rischio",
+    "colRiskScore": "Punteggio di rischio",
+    "colAtRisk": "Al valore di rischio",
+    "colAction": "Azione",
+    "createOffer": "Crea offerta",
+    "monitor": "Monitorare"
+  }
+}

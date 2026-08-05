@@ -1,10 +1,12 @@
 import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
+import createIntlMiddleware from 'next-intl/middleware';
+import { routing } from './i18n/routing';
+
+const handleI18nRouting = createIntlMiddleware(routing);
 
 export async function middleware(request: NextRequest) {
-  let supabaseResponse = NextResponse.next({
-    request,
-  })
+  const response = handleI18nRouting(request);
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -16,11 +18,8 @@ export async function middleware(request: NextRequest) {
         },
         setAll(cookiesToSet) {
           cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value))
-          supabaseResponse = NextResponse.next({
-            request,
-          })
           cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options)
+            response.cookies.set(name, value, options)
           )
         },
       },
@@ -31,29 +30,37 @@ export async function middleware(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser()
 
+  const pathname = request.nextUrl.pathname;
+  const segments = pathname.split('/').filter(Boolean);
+  const activeLocale = routing.locales.includes(segments[0] as typeof routing.locales[number]) ? segments[0] : routing.defaultLocale;
+  const pathWithoutLocale = routing.locales.includes(segments[0] as typeof routing.locales[number]) 
+    ? '/' + segments.slice(1).join('/') 
+    : pathname;
+
   const isPublicRoute =
-    request.nextUrl.pathname === '/' ||
-    request.nextUrl.pathname.startsWith('/login') ||
-    request.nextUrl.pathname.startsWith('/register') ||
-    request.nextUrl.pathname.startsWith('/api/')
+    pathWithoutLocale === '/' ||
+    pathWithoutLocale === '' ||
+    pathWithoutLocale.startsWith('/login') ||
+    pathWithoutLocale.startsWith('/register') ||
+    pathWithoutLocale.startsWith('/pricing') ||
+    pathWithoutLocale.startsWith('/api/');
 
   if (!user && !isPublicRoute) {
-    const url = request.nextUrl.clone()
-    url.pathname = '/login'
-    return NextResponse.redirect(url)
+    const url = request.nextUrl.clone();
+    url.pathname = `/${activeLocale}/login`;
+    return NextResponse.redirect(url);
   }
 
   if (
     user &&
-    (request.nextUrl.pathname.startsWith('/login') ||
-      request.nextUrl.pathname.startsWith('/register'))
+    (pathWithoutLocale.startsWith('/login') || pathWithoutLocale.startsWith('/register'))
   ) {
-    const url = request.nextUrl.clone()
-    url.pathname = '/dashboard'
-    return NextResponse.redirect(url)
+    const url = request.nextUrl.clone();
+    url.pathname = `/${activeLocale}/dashboard`;
+    return NextResponse.redirect(url);
   }
 
-  return supabaseResponse
+  return response;
 }
 
 export const config = {

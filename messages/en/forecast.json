@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Demand Forecast",
+    "subtitle": "AI-powered predictions for the next 7 days based on your sales history.",
+    "stats": {
+      "avgAccuracy": "Avg. Accuracy",
+      "projectedSales": "Projected Sales (7d)",
+      "wasteRisk": "Waste Risk Level",
+      "wasteRiskSub": "Action recommended",
+      "riskLow": "LOW",
+      "riskMedium": "MEDIUM",
+      "riskHigh": "HIGH"
+    },
+    "alerts": {
+      "missingData": "Missing Data",
+      "missingDataDesc": "No forecast data available. Please upload your latest inventory data."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Search products...",
+    "btnFilter": "Filter",
+    "colProduct": "Product",
+    "colStock": "Current Stock",
+    "colDemand": "Expected Demand (7d)",
+    "colConfidence": "Confidence",
+    "colRisk": "Waste Risk",
+    "action": "Action",
+    "btnManage": "Manage",
+    "empty": "No products match the selected filter.",
+    "emptyDesc": "Upload your sales and inventory data to generate forecasts.",
+    "btnUpload": "Upload Data",
+    "title": "Surplus Risk Table",
+    "subtitle": "{filtered} of {total} products shown",
+    "colCategory": "Category",
+    "colRiskLevel": "Risk Level",
+    "colRiskScore": "Risk Score",
+    "colAtRisk": "At Risk Value",
+    "colAction": "Action",
+    "createOffer": "Create Offer",
+    "monitor": "Monitor"
+  }
+}

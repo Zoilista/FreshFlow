@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Impactrapport",
+    "subtitle": "Volg de ecologische en financiële impact van uw inspanningen om afval te verminderen.",
+    "stats": {
+      "wastePrevented": "Afval voorkomen",
+      "revenueSaved": "Inkomsten opgeslagen",
+      "co2Avoided": "CO₂ vermeden"
+    },
+    "chart": {
+      "title": "Trends in de milieu-impact",
+      "wasteLabel": "Voorkomen afval (kg)",
+      "co2Label": "CO₂ vermeden (kg)",
+      "month": "Maand"
+    },
+    "details": {
+      "title": "Maandelijkse uitsplitsing",
+      "colPeriod": "Periode",
+      "colWaste": "Afval voorkomen",
+      "colRevenue": "Inkomsten opgeslagen",
+      "colCO2": "CO₂ vermeden",
+      "empty": "Er zijn nog geen impactgegevens beschikbaar.",
+      "emptyDesc": "Zodra u begint met het voorkomen van verspilling, verschijnen uw impactstatistieken hier."
+    }
+  }
+}

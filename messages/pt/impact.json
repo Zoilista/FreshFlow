@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Relatório de Impacto",
+    "subtitle": "Acompanhe o impacto ambiental e financeiro dos seus esforços de redução de resíduos.",
+    "stats": {
+      "wastePrevented": "Resíduos evitados",
+      "revenueSaved": "Receita economizada",
+      "co2Avoided": "CO₂ evitado"
+    },
+    "chart": {
+      "title": "Tendências de impacto ambiental",
+      "wasteLabel": "Resíduos Prevenidos (kg)",
+      "co2Label": "CO₂ evitado (kg)",
+      "month": "Mês"
+    },
+    "details": {
+      "title": "Detalhamento Mensal",
+      "colPeriod": "Período",
+      "colWaste": "Resíduos evitados",
+      "colRevenue": "Receita economizada",
+      "colCO2": "CO₂ evitado",
+      "empty": "Ainda não há dados de impacto disponíveis.",
+      "emptyDesc": "Suas métricas de impacto aparecerão aqui assim que você começar a prevenir desperdícios."
+    }
+  }
+}

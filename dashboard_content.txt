@@ -1,0 +1,40 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Dashboard
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+Welcome, demo@freshflow.ai 👋
+
+Let's get your inventory data set up.
+
+Get Started
+Upload your first data file to unlock forecasts
+
+It takes less than 5 minutes. Upload a CSV or Excel file with your sales and stock data to see demand forecasts, risk analysis, and impact metrics.
+
+product_name
+date
+sales
+stock
+price
+category
+Upload Now →

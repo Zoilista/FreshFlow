@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Overschotbeheer",
+    "subtitle": "Beheer voorraad met een hoog risico voordat deze verspilling wordt.",
+    "stats": {
+      "itemsAtRisk": "Items die gevaar lopen",
+      "totalValue": "Totale waarde in gevaar",
+      "co2": "Geschat. CO₂-voetafdruk",
+      "safe": "Alle artikelen veilig"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Producten zoeken...",
+    "all": "Alle",
+    "highRisk": "Hoog risico",
+    "mediumRisk": "Middelmatig risico",
+    "lowRisk": "Laag risico",
+    "colProduct": "Product",
+    "colSurplus": "Overtollig aantal",
+    "colRisk": "Risiconiveau",
+    "colEstLoss": "Geschat. Verlies",
+    "colConfidence": "Vertrouwen",
+    "colAction": "Actie",
+    "btnCreate": "Aanbieding maken",
+    "riskCritical": "KRITIEK",
+    "riskHigh": "HOOG",
+    "riskMedium": "MEDIUM",
+    "riskLow": "LAAG",
+    "empty": "Nog geen overschotvoorspellingen.",
+    "emptyDesc": "Upload uw nieuwste voorraadgegevens om voorspellingen te zien.",
+    "btnUpload": "Gegevens uploaden"
+  }
+}

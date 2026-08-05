@@ -1,0 +1,101 @@
+{
+  "greeting": "Bom dia",
+  "requiresAttention": "Requer Atenção",
+  "uploadNewData": "Enviar Novos Dados",
+  "viewForecast": "Ver Previsão",
+  "productsTracked": "Produtos Rastreados",
+  "highRiskItems": "Itens de Alto Risco",
+  "foodSaved": "Alimentos Salvos",
+  "recommendedActions": "Ações Recomendadas",
+  "leaderboard": {
+    "title": "🏆 Classificação de Amsterdã",
+    "rank": "Você está na posição #{rank} de {total} empresas",
+    "viewFull": "Ver classificação completa →"
+  },
+  "nav": {
+    "dashboard": "Painel",
+    "upload": "Enviar",
+    "forecast": "Previsão",
+    "surplus": "Excedente",
+    "offers": "Ofertas",
+    "impact": "Impacto",
+    "settings": "Configurações"
+  },
+  "header": {
+    "searchPlaceholder": "Pesquisar inventário...",
+    "notifications": "Notificações",
+    "profile": "Perfil",
+    "signOut": "Sair",
+    "loading": "Carregando…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Bom dia",
+      "afternoon": "Boa tarde",
+      "evening": "Boa noite",
+      "welcome": "Bem-vindo"
+    },
+    "empty": {
+      "subtitle": "Vamos configurar os dados do seu inventário.",
+      "getStarted": "Começar",
+      "title": "Envie seu primeiro arquivo de dados para desbloquear previsões",
+      "desc": "Leva menos de 5 minutos. Envie um arquivo CSV ou Excel com seus dados de vendas e estoque para ver previsões de demanda, análise de risco e métricas de impacto.",
+      "btn": "Enviar Agora →"
+    },
+    "banner": {
+      "subtitle": "Aqui está o status do seu inventário — última atualização {time}.",
+      "uploadBtn": "Enviar Novos Dados",
+      "forecastBtn": "Ver Previsão →"
+    },
+    "urgent": {
+      "title": "Requer Atenção",
+      "subtitle": "({count} itens urgentes)",
+      "riskScore": "Pontuação de risco: {score}/100",
+      "atRisk": "{value} em risco",
+      "btn": "Criar Oferta →"
+    },
+    "stats": {
+      "products": "Produtos Rastreados",
+      "productsSub": "{count} previsões geradas",
+      "highRisk": "Itens de Alto Risco",
+      "highRiskSubSafe": "Todos os itens seguros",
+      "highRiskSub": "{value} em risco",
+      "foodSaved": "Alimentos Salvos (Total)",
+      "foodSavedSub": "{value} t de CO₂ evitadas"
+    },
+    "actions": {
+      "title": "Ações Recomendadas",
+      "urgentTitle": "{count} itens de alto risco requerem atenção",
+      "urgentDesc": "{value} de perda potencial",
+      "urgentBtn": "Criar Ofertas",
+      "forecastTitle": "Última previsão pronta",
+      "forecastDesc": "Com base em {file}",
+      "forecastBtn": "Ver Previsão",
+      "impactTitle": "Você evitou {value} de desperdício de alimentos",
+      "impactDesc": "{value} de receita salva",
+      "impactBtn": "Ver Relatório de Impacto",
+      "uploadTitle": "Mantenha as previsões precisas",
+      "uploadDesc": "Envie novos dados semanalmente para obter os melhores resultados",
+      "uploadBtn": "Enviar Dados"
+    },
+    "recent": {
+      "title": "Atividade Recente",
+      "upload": "Dados enviados — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} itens de alto risco</strong> detectados na previsão",
+      "impact": "Impacto atualizado — <strong>{value}</strong> de desperdício evitado no total",
+      "today": "Hoje",
+      "viewAll": "Ver todas as previsões →"
+    },
+    "quick": {
+      "title": "Ações Rápidas",
+      "manageSurplus": "Gerenciar Excedente"
+    },
+    "lastUpload": {
+      "title": "Último Envio",
+      "validRows": "{count} linhas válidas",
+      "products": "{count} produtos",
+      "processed": "Processado",
+      "btn": "Enviar Novo →"
+    }
+  }
+}

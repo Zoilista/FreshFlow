@@ -1,0 +1,11 @@
+product_name,date,quantity_sold,stock_quantity,unit
+Tomatoes,2026-08-01,50,200,kg
+Bananas,2026-08-01,30,150,kg
+Bread Rolls,2026-08-01,80,100,pcs
+Milk 2L,2026-08-01,40,60,pcs
+Strawberries,2026-08-01,20,80,kg
+Tomatoes,2026-08-02,45,150,kg
+Bananas,2026-08-02,35,115,kg
+Bread Rolls,2026-08-02,90,10,pcs
+Milk 2L,2026-08-02,38,22,pcs
+Strawberries,2026-08-02,18,62,kg

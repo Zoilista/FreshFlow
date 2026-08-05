@@ -1,0 +1,44 @@
+import json
+import os
+from pathlib import Path
+
+landing_tr = {
+    "navbar": {
+        "product": "Ürün",
+        "pricing": "Fiyatlandırma",
+        "login": "Giriş yap",
+        "getStarted": "Başlayın"
+    },
+    "hero": {
+        "badge": "YENİ: Yapay zeka destekli fazlalık yönetimi",
+        "title1": "Taze Gıda İsrafını Durdurun",
+        "title2": "Oluşmadan Önce",
+        "subtitle": "Talebi doğru tahmin etmek, aşırı siparişi önlemek ve fazla stoğu kurtarılmış gelire dönüştürmek için yapay zeka kullanan yüzlerce bağımsız gıda işletmesine katılın.",
+        "cta": "Ücretsiz Denemenizi Başlatın",
+        "demo": "Demo Talep Et"
+    },
+    "features": {
+        "title": "Sıfır atık operasyonu yürütmek için ihtiyacınız olan her şey",
+        "subtitle": "Bağımsız toptancılar, perakendeciler ve restoranlar için özel olarak tasarlanmıştır.",
+        "f1Title": "Talep Tahmini",
+        "f1Desc": "Satış geçmişinizi yükleyin ve yapay zekamızın önümüzdeki 7 gün için tam olarak ne kadar taze gıdaya ihtiyacınız olduğunu tahmin etmesine izin verin.",
+        "f2Title": "Fazlalık Uyarıları",
+        "f2Desc": "Ürünlerin süresi dolmadan önce bildirim alın. Erken önlem alabilmeniz için yüksek riskli envanteri belirliyoruz.",
+        "f3Title": "Otomatik Teklifler",
+        "f3Desc": "B2B alıcılarınız veya yerel yardım kuruluşlarınız için anında indirimli teklifler oluşturarak fazlalıkları gelire dönüştürün."
+    },
+    "footer": {
+        "copyright": "© 2026 FreshFlow. Tüm hakları saklıdır.",
+        "terms": "Hizmet Şartları",
+        "privacy": "Gizlilik Politikası"
+    }
+}
+
+base_dir = Path(r"e:\FreshFlow\freshflow\messages")
+
+lang_dir = base_dir / "tr"
+lang_dir.mkdir(parents=True, exist_ok=True)
+with open(lang_dir / "landing.json", "w", encoding="utf-8") as f:
+    json.dump(landing_tr, f, ensure_ascii=False, indent=2)
+
+print("TR landing translations generated successfully.")

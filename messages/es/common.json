@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow: detenga el desperdicio de alimentos frescos antes de que suceda",
+    "description": "Previsión de la demanda basada en IA y comparación de excedentes para mayoristas, minoristas y restaurantes independientes de toda Europa. Reducir el desperdicio, recuperar ingresos."
+  },
+  "loading": "Cargando...",
+  "error": "Se produjo un error.",
+  "save": "Ahorrar",
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "delete": "Borrar",
+  "close": "Cerca",
+  "language": "Idioma"
+}

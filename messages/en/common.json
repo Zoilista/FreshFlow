@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow — Stop Fresh Food Waste Before It Happens",
+    "description": "AI-powered demand forecasting and surplus matching for independent wholesalers, retailers and restaurants across Europe. Reduce waste, recover revenue."
+  },
+  "loading": "Loading...",
+  "error": "An error occurred.",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "close": "Close",
+  "language": "Language"
+}

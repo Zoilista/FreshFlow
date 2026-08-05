@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "FreshFlow — zatrzymaj marnowanie świeżej żywności, zanim do tego dojdzie",
+    "description": "Prognozowanie popytu i dopasowywanie nadwyżek w oparciu o sztuczną inteligencję dla niezależnych hurtowników, sprzedawców detalicznych i restauracji w całej Europie. Zmniejsz ilość odpadów i odzyskaj przychody."
+  },
+  "loading": "Załadunek...",
+  "error": "Wystąpił błąd.",
+  "save": "Ratować",
+  "cancel": "Anulować",
+  "confirm": "Potwierdzać",
+  "delete": "Usuwać",
+  "close": "Zamknąć",
+  "language": "Język"
+}

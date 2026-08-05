@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Prévision de la demande",
+    "subtitle": "Prédictions basées sur l'IA pour les 7 prochains jours, basées sur votre historique de ventes.",
+    "stats": {
+      "avgAccuracy": "Moy. Précision",
+      "projectedSales": "Ventes projetées (7j)",
+      "wasteRisk": "Niveau de risque de déchets",
+      "wasteRiskSub": "Action recommandée",
+      "riskLow": "FAIBLE",
+      "riskMedium": "MOYEN",
+      "riskHigh": "HAUT"
+    },
+    "alerts": {
+      "missingData": "Données manquantes",
+      "missingDataDesc": "Aucune donnée prévisionnelle disponible. Veuillez télécharger vos dernières données d'inventaire."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Rechercher des produits...",
+    "btnFilter": "Filtre",
+    "colProduct": "Produit",
+    "colStock": "Stock actuel",
+    "colDemand": "Demande attendue (7j)",
+    "colConfidence": "Confiance",
+    "colRisk": "Risque de déchets",
+    "action": "Action",
+    "btnManage": "Gérer",
+    "empty": "Aucun produit ne correspond au filtre sélectionné.",
+    "emptyDesc": "Téléchargez vos données de ventes et d'inventaire pour générer des prévisions.",
+    "btnUpload": "Télécharger des données",
+    "title": "Tableau des risques d'excédent",
+    "subtitle": "{filtered} sur {total} produits affichés",
+    "colCategory": "Category",
+    "colRiskLevel": "Niveau de risque",
+    "colRiskScore": "Score de risque",
+    "colAtRisk": "Valeur à risque",
+    "colAction": "Action",
+    "createOffer": "Créer une offre",
+    "monitor": "Moniteur"
+  }
+}

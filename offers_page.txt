@@ -1,0 +1,51 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Offers
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+demo@freshflow.ai
+Loading…
+DE
+Active Offers
+
+Discounted inventory available for buyers or donation.
+
+Active Offers
+
+0
+
+Total Value
+
+€0
+
+Recovery Potential
+
+€0
+
+Sent Offers
+All
+Pending
+Accepted
+Rejected
+Expired
+
+No offers in this category.

@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Producto",
+    "pricing": "Precios",
+    "login": "Iniciar sesión",
+    "getStarted": "Empezar"
+  },
+  "hero": {
+    "badge": "NUEVO: Gestión de excedentes impulsada por IA",
+    "title1": "Detén el desperdicio de alimentos frescos",
+    "title2": "Antes de que ocurra",
+    "subtitle": "Únete a cientos de empresas de alimentos independientes que utilizan IA para pronosticar con precisión la demanda, evitar sobrepedidos y convertir el inventario excedente en ingresos recuperados.",
+    "cta": "Comienza tu prueba gratuita",
+    "demo": "Reservar una demostración"
+  },
+  "features": {
+    "title": "Todo lo que necesitas para una operación sin desperdicios",
+    "subtitle": "Diseñado para mayoristas independientes, minoristas y restaurantes.",
+    "f1Title": "Pronóstico de demanda",
+    "f1Desc": "Sube tu historial de ventas y deja que nuestra IA prediga exactamente cuántos alimentos frescos necesitas para los próximos 7 días.",
+    "f2Title": "Alertas de excedentes",
+    "f2Desc": "Recibe notificaciones antes de que los artículos caduquen. Identificamos inventario de alto riesgo para que puedas actuar a tiempo.",
+    "f3Title": "Ofertas automatizadas",
+    "f3Desc": "Convierte los excedentes en ingresos creando instantáneamente ofertas con descuento para tus compradores B2B o organizaciones benéficas locales."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Todos los derechos reservados.",
+    "terms": "Términos de servicio",
+    "privacy": "Política de privacidad"
+  }
+}

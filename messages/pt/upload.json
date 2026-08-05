@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Carregar dados de inventário",
+    "subtitle": "Carregue seus dados mais recentes de vendas e estoque para gerar novas previsões.",
+    "btnDownloadTemplate": "Baixe o modelo CSV",
+    "uploadBox": {
+      "title": "Clique para carregar",
+      "desc": "ou arraste e solte",
+      "formats": "CSV ou Excel (máx. 10 MB)",
+      "uploading": "Carregando e analisando...",
+      "processing": "Processando dados...",
+      "success": "Carregamento bem-sucedido!"
+    },
+    "validation": {
+      "title": "Validação de dados",
+      "row": "Linha {row}",
+      "rowsValid": "{count} linhas válidas",
+      "errorsFound": "Erros {count} encontrados",
+      "noErrors": "Perfeito! Seus dados estão prontos para serem processados."
+    }
+  }
+}

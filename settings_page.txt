@@ -1,0 +1,94 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Settings
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+demo@freshflow.ai
+Loading…
+DE
+Settings
+
+Manage your business profile, notifications and forecast preferences.
+
+Business Profile
+
+Your public business information visible to buyers.
+
+Edit Profile
+Full Name
+
+Not set
+
+Business Name
+
+Not set
+
+Business Type
+
+Independent Retailer
+
+City
+
+Not set
+
+Country
+
+Not set
+
+Contact Email
+
+demo@freshflow.ai
+
+Notifications
+settings.page.fields.highRiskAlerts
+ON
+settings.page.fields.weeklySummary
+ON
+settings.page.fields.buyerResponses
+ON
+settings.page.fields.leaderboardUpdates
+OFF
+settings.page.fields.competitionReminders
+ON
+Forecast Settings
+Forecast Period
+1 day
+3 days
+7 days
+14 days
+High Risk Threshold
+75%
+50%
+90%
+
+Products with surplus risk above 75% will be flagged as HIGH.
+
+Currency
+EUR
+GBP
+USD
+Danger Zone
+
+These actions are permanent and cannot be undone.
+
+Delete All Uploaded Data
+Delete Account

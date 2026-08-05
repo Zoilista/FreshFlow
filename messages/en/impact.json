@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Impact Report",
+    "subtitle": "Track the environmental and financial impact of your waste reduction efforts.",
+    "stats": {
+      "wastePrevented": "Waste Prevented",
+      "revenueSaved": "Revenue Saved",
+      "co2Avoided": "CO₂ Avoided"
+    },
+    "chart": {
+      "title": "Environmental Impact Trends",
+      "wasteLabel": "Waste Prevented (kg)",
+      "co2Label": "CO₂ Avoided (kg)",
+      "month": "Month"
+    },
+    "details": {
+      "title": "Monthly Breakdown",
+      "colPeriod": "Period",
+      "colWaste": "Waste Prevented",
+      "colRevenue": "Revenue Saved",
+      "colCO2": "CO₂ Avoided",
+      "empty": "No impact data available yet.",
+      "emptyDesc": "Your impact metrics will appear here once you start preventing waste."
+    }
+  }
+}

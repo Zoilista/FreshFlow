@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Prześlij dane o zasobach",
+    "subtitle": "Prześlij najnowsze dane dotyczące sprzedaży i zapasów, aby wygenerować świeże prognozy.",
+    "btnDownloadTemplate": "Pobierz szablon CSV",
+    "uploadBox": {
+      "title": "Kliknij, aby przesłać",
+      "desc": "lub przeciągnij i upuść",
+      "formats": "CSV lub Excel (maks. 10 MB)",
+      "uploading": "Przesyłanie i analizowanie...",
+      "processing": "Przetwarzanie danych...",
+      "success": "Przesłanie powiodło się!"
+    },
+    "validation": {
+      "title": "Walidacja danych",
+      "row": "Wiersz {row}",
+      "rowsValid": "{count} wiersze są prawidłowe",
+      "errorsFound": "Znaleziono błędy {count}",
+      "noErrors": "Doskonały! Twoje dane są gotowe do przetwarzania."
+    }
+  }
+}

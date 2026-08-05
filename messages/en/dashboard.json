@@ -1,0 +1,101 @@
+{
+  "greeting": "Good morning",
+  "requiresAttention": "Requires Attention",
+  "uploadNewData": "Upload New Data",
+  "viewForecast": "View Forecast",
+  "productsTracked": "Products Tracked",
+  "highRiskItems": "High Risk Items",
+  "foodSaved": "Food Saved",
+  "recommendedActions": "Recommended Actions",
+  "leaderboard": {
+    "title": "🏆 Amsterdam Leaderboard",
+    "rank": "You're ranked #{rank} of {total} businesses",
+    "viewFull": "View Full Leaderboard →"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "upload": "Upload",
+    "forecast": "Forecast",
+    "surplus": "Surplus",
+    "offers": "Offers",
+    "impact": "Impact",
+    "settings": "Settings"
+  },
+  "header": {
+    "searchPlaceholder": "Search inventory...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "signOut": "Sign out",
+    "loading": "Loading…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening",
+      "welcome": "Welcome"
+    },
+    "empty": {
+      "subtitle": "Let's get your inventory data set up.",
+      "getStarted": "Get Started",
+      "title": "Upload your first data file to unlock forecasts",
+      "desc": "It takes less than 5 minutes. Upload a CSV or Excel file with your sales and stock data to see demand forecasts, risk analysis, and impact metrics.",
+      "btn": "Upload Now →"
+    },
+    "banner": {
+      "subtitle": "Here's your inventory status — last updated {time}.",
+      "uploadBtn": "Upload New Data",
+      "forecastBtn": "View Forecast →"
+    },
+    "urgent": {
+      "title": "Requires Attention",
+      "subtitle": "({count} urgent items)",
+      "riskScore": "Risk score: {score}/100",
+      "atRisk": "{value} at risk",
+      "btn": "Create Offer →"
+    },
+    "stats": {
+      "products": "Products Tracked",
+      "productsSub": "{count} forecasts generated",
+      "highRisk": "High Risk Items",
+      "highRiskSubSafe": "All items safe",
+      "highRiskSub": "{value} at risk",
+      "foodSaved": "Food Saved (Total)",
+      "foodSavedSub": "{value} t CO₂ avoided"
+    },
+    "actions": {
+      "title": "Recommended Actions",
+      "urgentTitle": "{count} high-risk items need attention",
+      "urgentDesc": "{value} potential loss",
+      "urgentBtn": "Create Offers",
+      "forecastTitle": "Latest forecast ready",
+      "forecastDesc": "Based on {file}",
+      "forecastBtn": "View Forecast",
+      "impactTitle": "You've prevented {value} of food waste",
+      "impactDesc": "{value} revenue saved",
+      "impactBtn": "See Impact Report",
+      "uploadTitle": "Keep forecasts accurate",
+      "uploadDesc": "Upload new data weekly for best results",
+      "uploadBtn": "Upload Data"
+    },
+    "recent": {
+      "title": "Recent Activity",
+      "upload": "Data uploaded — <strong>{file}</strong>",
+      "highRisk": "<strong>{count} high-risk items</strong> detected in forecast",
+      "impact": "Impact updated — <strong>{value}</strong> waste prevented total",
+      "today": "Today",
+      "viewAll": "View all forecasts →"
+    },
+    "quick": {
+      "title": "Quick Actions",
+      "manageSurplus": "Manage Surplus"
+    },
+    "lastUpload": {
+      "title": "Last Upload",
+      "validRows": "{count} valid rows",
+      "products": "{count} products",
+      "processed": "Processed",
+      "btn": "Upload New →"
+    }
+  }
+}

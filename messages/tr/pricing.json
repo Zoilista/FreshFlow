@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Basit, şeffaf fiyatlandırma",
+    "subtitle": "İsrafı önlemeye bugün başlayın. Gizli ücret yok, istediğiniz zaman iptal edin.",
+    "monthly": "Aylık",
+    "annually": "Yıllık",
+    "save20": "%20 tasarruf edin",
+    "getStarted": "Başlayın",
+    "contactSales": "Satış Ekibiyle İletişime Geçin",
+    "starter": {
+      "name": "Başlangıç",
+      "desc": "Tek konumlu restoranlar ve küçük perakendeciler için mükemmeldir.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "500'e kadar ürün takip ediliyor",
+      "f2": "Temel talep tahmini",
+      "f3": "E-posta fazlası uyarıları",
+      "f4": "Standart destek"
+    },
+    "pro": {
+      "name": "Profesyonel",
+      "desc": "Meşgul toptancılar ve çok lokasyonlu işletmeler için.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Sınırsız ürün takip edildi",
+      "f2": "Gelişmiş yapay zeka tahmini",
+      "f3": "Otomatik B2B teklifleri",
+      "f4": "Öncelikli destek"
+    }
+  }
+}

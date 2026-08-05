@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Produkt",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "badge": "NEU: KI-gestütztes Überschussmanagement",
+    "title1": "Stoppen Sie frische Lebensmittelverschwendung",
+    "title2": "Bevor sie passiert",
+    "subtitle": "Schließen Sie sich Hunderten unabhängiger Lebensmittelunternehmen an, die KI nutzen, um die Nachfrage genau zu prognostizieren, Überbestellungen zu vermeiden und überschüssigen Bestand in Einnahmen umzuwandeln.",
+    "cta": "Starten Sie Ihre kostenlose Testversion",
+    "demo": "Demo buchen"
+  },
+  "features": {
+    "title": "Alles, was Sie für einen Zero-Waste-Betrieb benötigen",
+    "subtitle": "Speziell für unabhängige Großhändler, Einzelhändler und Restaurants entwickelt.",
+    "f1Title": "Nachfrageprognose",
+    "f1Desc": "Laden Sie Ihre Verkaufshistorie hoch und lassen Sie unsere KI genau vorhersagen, wie viel frische Lebensmittel Sie für die nächsten 7 Tage benötigen.",
+    "f2Title": "Überschusswarnungen",
+    "f2Desc": "Lassen Sie sich benachrichtigen, bevor Artikel ablaufen. Wir identifizieren Hochrisikobestände, damit Sie frühzeitig handeln können.",
+    "f3Title": "Automatisierte Angebote",
+    "f3Desc": "Verwandeln Sie Überschuss in Einnahmen, indem Sie sofort ermäßigte Angebote für Ihre B2B-Käufer oder lokale Wohltätigkeitsorganisationen erstellen."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Alle Rechte vorbehalten.",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzrichtlinie"
+  }
+}

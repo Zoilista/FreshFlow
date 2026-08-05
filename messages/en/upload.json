@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Upload Inventory Data",
+    "subtitle": "Upload your latest sales and stock data to generate fresh forecasts.",
+    "btnDownloadTemplate": "Download CSV Template",
+    "uploadBox": {
+      "title": "Click to upload",
+      "desc": "or drag and drop",
+      "formats": "CSV or Excel (max. 10MB)",
+      "uploading": "Uploading & Analyzing...",
+      "processing": "Processing data...",
+      "success": "Upload successful!"
+    },
+    "validation": {
+      "title": "Data Validation",
+      "row": "Row {row}",
+      "rowsValid": "{count} rows valid",
+      "errorsFound": "{count} errors found",
+      "noErrors": "Perfect! Your data is ready to be processed."
+    }
+  }
+}

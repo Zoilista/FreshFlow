@@ -1,0 +1,42 @@
+FreshFlow
+Dashboard
+Upload
+Forecast
+Surplus
+Offers
+Impact
+Settings
+
+FreshFlow v0.1.0
+
+Upload
+
+Wednesday, August 5, 2026
+
+EN - English
+TR - Türkçe
+DE - Deutsch
+FR - Français
+ES - Español
+IT - Italiano
+NL - Nederlands
+PL - Polski
+PT - Português
+demo@freshflow.ai
+Loading…
+DE
+Upload Data
+
+Import your inventory or sales file (CSV or Excel) to generate demand forecasts.
+
+Not sure about the format?
+
+Download our CSV template with the correct column structure. Accepted: product_name, sku, date, sales, stock, price, category
+
+Download Template
+
+Upload complete! Redirecting to forecast…
+
+Recent Uploads
+
+No uploads yet. Upload your first CSV or Excel file to get started.

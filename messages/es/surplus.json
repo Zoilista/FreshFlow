@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Gestión de excedentes",
+    "subtitle": "Administre el inventario de alto riesgo antes de que se convierta en desperdicio.",
+    "stats": {
+      "itemsAtRisk": "Artículos en riesgo",
+      "totalValue": "Valor total en riesgo",
+      "co2": "Est. Huella de CO₂",
+      "safe": "Todos los artículos seguros"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Buscar productos...",
+    "all": "Todo",
+    "highRisk": "Alto riesgo",
+    "mediumRisk": "Riesgo medio",
+    "lowRisk": "Bajo riesgo",
+    "colProduct": "Producto",
+    "colSurplus": "Cantidad excedente",
+    "colRisk": "Nivel de riesgo",
+    "colEstLoss": "Est. Pérdida",
+    "colConfidence": "Confianza",
+    "colAction": "Acción",
+    "btnCreate": "Crear oferta",
+    "riskCritical": "CRÍTICO",
+    "riskHigh": "ALTO",
+    "riskMedium": "MEDIO",
+    "riskLow": "BAJO",
+    "empty": "Aún no hay predicciones de superávit.",
+    "emptyDesc": "Cargue los datos de su inventario más recientes para ver las predicciones.",
+    "btnUpload": "Cargar datos"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Wirkungsbericht",
+    "subtitle": "Verfolgen Sie die ökologischen und finanziellen Auswirkungen Ihrer Bemühungen zur Abfallreduzierung.",
+    "stats": {
+      "wastePrevented": "Abfallvermeidung",
+      "revenueSaved": "Einnahmen gespart",
+      "co2Avoided": "CO₂ vermieden"
+    },
+    "chart": {
+      "title": "Umweltverträglichkeitstrends",
+      "wasteLabel": "Verhinderter Abfall (kg)",
+      "co2Label": "Vermiedenes CO₂ (kg)",
+      "month": "Monat"
+    },
+    "details": {
+      "title": "Monatliche Aufschlüsselung",
+      "colPeriod": "Zeitraum",
+      "colWaste": "Abfallvermeidung",
+      "colRevenue": "Einnahmen gespart",
+      "colCO2": "CO₂ vermieden",
+      "empty": "Noch keine Auswirkungsdaten verfügbar.",
+      "emptyDesc": "Ihre Wirkungskennzahlen werden hier angezeigt, sobald Sie mit der Abfallvermeidung beginnen."
+    }
+  }
+}

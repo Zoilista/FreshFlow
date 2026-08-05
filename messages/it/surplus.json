@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Gestione delle eccedenze",
+    "subtitle": "Gestisci l'inventario ad alto rischio prima che diventi un rifiuto.",
+    "stats": {
+      "itemsAtRisk": "Articoli a rischio",
+      "totalValue": "Valore totale a rischio",
+      "co2": "Est. Impronta di CO₂",
+      "safe": "Tutti gli articoli sono sicuri"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Cerca prodotti...",
+    "all": "Tutto",
+    "highRisk": "Alto rischio",
+    "mediumRisk": "Rischio medio",
+    "lowRisk": "Basso rischio",
+    "colProduct": "Prodotto",
+    "colSurplus": "Quantità in eccesso",
+    "colRisk": "Livello di rischio",
+    "colEstLoss": "Est. Perdita",
+    "colConfidence": "Fiducia",
+    "colAction": "Azione",
+    "btnCreate": "Crea offerta",
+    "riskCritical": "CRITICO",
+    "riskHigh": "ALTO",
+    "riskMedium": "MEDIO",
+    "riskLow": "BASSO",
+    "empty": "Nessuna previsione in eccesso ancora.",
+    "emptyDesc": "Carica i dati di inventario più recenti per visualizzare le previsioni.",
+    "btnUpload": "Carica dati"
+  }
+}

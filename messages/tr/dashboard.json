@@ -1,0 +1,101 @@
+{
+  "greeting": "Günaydın",
+  "requiresAttention": "Dikkat Gerektiriyor",
+  "uploadNewData": "Yeni Veri Yükle",
+  "viewForecast": "Tahmini Görüntüle",
+  "productsTracked": "Takip Edilen Ürün",
+  "highRiskItems": "Yüksek Riskli Ürün",
+  "foodSaved": "Kurtarılan Gıda",
+  "recommendedActions": "Önerilen Aksiyonlar",
+  "leaderboard": {
+    "title": "🏆 Amsterdam Liderlik Tablosu",
+    "rank": "10 işletme arasında #{rank}. sıradasınız",
+    "viewFull": "Tüm Tabloyu Gör →"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "upload": "Yükle",
+    "forecast": "Tahmin",
+    "surplus": "Fazlalık",
+    "offers": "Teklifler",
+    "impact": "Etki",
+    "settings": "Ayarlar"
+  },
+  "header": {
+    "searchPlaceholder": "Envanterde ara...",
+    "notifications": "Bildirimler",
+    "profile": "Profil",
+    "signOut": "Çıkış yap",
+    "loading": "Yükleniyor…"
+  },
+  "page": {
+    "greeting": {
+      "morning": "Günaydın",
+      "afternoon": "Tünaydın",
+      "evening": "İyi akşamlar",
+      "welcome": "Hoş geldiniz"
+    },
+    "empty": {
+      "subtitle": "Envanter verilerinizi ayarlayalım.",
+      "getStarted": "Başlayın",
+      "title": "Tahminleri açmak için ilk veri dosyanızı yükleyin",
+      "desc": "Sadece 5 dakikanızı alır. Talep tahminlerini, risk analizini ve etki metriklerini görmek için satış ve stok verilerinizi içeren bir CSV veya Excel dosyası yükleyin.",
+      "btn": "Şimdi Yükle →"
+    },
+    "banner": {
+      "subtitle": "İşte envanter durumunuz — son güncelleme {time}.",
+      "uploadBtn": "Yeni Veri Yükle",
+      "forecastBtn": "Tahmini Görüntüle →"
+    },
+    "urgent": {
+      "title": "Dikkat Gerektiriyor",
+      "subtitle": "({count} acil ürün)",
+      "riskScore": "Risk puanı: {score}/100",
+      "atRisk": "Risk altındaki değer: {value}",
+      "btn": "Teklif Oluştur →"
+    },
+    "stats": {
+      "products": "Takip Edilen Ürün",
+      "productsSub": "{count} tahmin oluşturuldu",
+      "highRisk": "Yüksek Riskli Ürün",
+      "highRiskSubSafe": "Tüm ürünler güvende",
+      "highRiskSub": "Risk altındaki değer: {value}",
+      "foodSaved": "Kurtarılan Gıda (Toplam)",
+      "foodSavedSub": "{value} t CO₂ önlendi"
+    },
+    "actions": {
+      "title": "Önerilen Aksiyonlar",
+      "urgentTitle": "{count} yüksek riskli ürün dikkat gerektiriyor",
+      "urgentDesc": "{value} potansiyel kayıp",
+      "urgentBtn": "Teklif Oluştur",
+      "forecastTitle": "Son tahmin hazır",
+      "forecastDesc": "{file} dosyasına göre",
+      "forecastBtn": "Tahmini Görüntüle",
+      "impactTitle": "{value} gıda israfını önlediniz",
+      "impactDesc": "{value} gelir kurtarıldı",
+      "impactBtn": "Etki Raporunu Gör",
+      "uploadTitle": "Tahminleri doğru tutun",
+      "uploadDesc": "En iyi sonuçlar için verileri haftalık yükleyin",
+      "uploadBtn": "Veri Yükle"
+    },
+    "recent": {
+      "title": "Son Aktiviteler",
+      "upload": "Veri yüklendi — <strong>{file}</strong>",
+      "highRisk": "Tahminde <strong>{count} yüksek riskli ürün</strong> tespit edildi",
+      "impact": "Etki güncellendi — toplam <strong>{value}</strong> israf önlendi",
+      "today": "Bugün",
+      "viewAll": "Tüm tahminleri gör →"
+    },
+    "quick": {
+      "title": "Hızlı İşlemler",
+      "manageSurplus": "Fazlalığı Yönet"
+    },
+    "lastUpload": {
+      "title": "Son Yükleme",
+      "validRows": "{count} geçerli satır",
+      "products": "{count} ürün",
+      "processed": "İşlendi",
+      "btn": "Yeni Yükle →"
+    }
+  }
+}

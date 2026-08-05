@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Previsión de demanda",
+    "subtitle": "Predicciones impulsadas por IA para los próximos 7 días basadas en su historial de ventas.",
+    "stats": {
+      "avgAccuracy": "Promedio Exactitud",
+      "projectedSales": "Ventas proyectadas (7d)",
+      "wasteRisk": "Nivel de riesgo de residuos",
+      "wasteRiskSub": "Acción recomendada",
+      "riskLow": "BAJO",
+      "riskMedium": "MEDIO",
+      "riskHigh": "ALTO"
+    },
+    "alerts": {
+      "missingData": "Datos faltantes",
+      "missingDataDesc": "No hay datos de pronóstico disponibles. Cargue los datos de su inventario más recientes."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Buscar productos...",
+    "btnFilter": "Filtrar",
+    "colProduct": "Producto",
+    "colStock": "Existencias actuales",
+    "colDemand": "Demanda esperada (7d)",
+    "colConfidence": "Confianza",
+    "colRisk": "Riesgo de residuos",
+    "action": "Acción",
+    "btnManage": "Administrar",
+    "empty": "Ningún producto coincide con el filtro seleccionado.",
+    "emptyDesc": "Cargue sus datos de ventas e inventario para generar pronósticos.",
+    "btnUpload": "Cargar datos",
+    "title": "Tabla de riesgo excedente",
+    "subtitle": "{filtered} de {total} productos mostrados",
+    "colCategory": "Categoría",
+    "colRiskLevel": "Nivel de riesgo",
+    "colRiskScore": "Puntuación de riesgo",
+    "colAtRisk": "Valor en riesgo",
+    "colAction": "Acción",
+    "createOffer": "Crear oferta",
+    "monitor": "Monitor"
+  }
+}

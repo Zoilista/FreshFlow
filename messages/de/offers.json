@@ -1,0 +1,27 @@
+{
+  "page": {
+    "title": "Aktive Angebote",
+    "subtitle": "Ermäßigter Lagerbestand für Käufer oder Spende verfügbar.",
+    "stats": {
+      "activeOffers": "Aktive Angebote",
+      "totalValue": "Gesamtwert",
+      "potential": "Erholungspotenzial"
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Angebote suchen...",
+    "statusActive": "Aktiv",
+    "statusPending": "Ausstehend",
+    "statusClosed": "Geschlossen",
+    "colProduct": "Produkt",
+    "colPrice": "Angebotspreis",
+    "colQty": "Menge",
+    "colStatus": "Status",
+    "colExpires": "Läuft ab",
+    "colAction": "Aktion",
+    "btnView": "Details anzeigen",
+    "empty": "Noch keine aktiven Angebote.",
+    "emptyDesc": "Erstellen Sie Angebote aus Ihrem überschüssigen Lagerbestand, um den Wert zurückzugewinnen.",
+    "btnSurplus": "Überschuss anzeigen"
+  }
+}

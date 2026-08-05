@@ -1,0 +1,42 @@
+{
+  "page": {
+    "title": "Prognoza popytu",
+    "subtitle": "Prognozy oparte na sztucznej inteligencji na następne 7 dni na podstawie Twojej historii sprzedaży.",
+    "stats": {
+      "avgAccuracy": "Śr. Dokładność",
+      "projectedSales": "Prognozowana sprzedaż (7 dni)",
+      "wasteRisk": "Poziom ryzyka związanego z odpadami",
+      "wasteRiskSub": "Zalecane działanie",
+      "riskLow": "NISKI",
+      "riskMedium": "ŚREDNI",
+      "riskHigh": "WYSOKI"
+    },
+    "alerts": {
+      "missingData": "Brakujące dane",
+      "missingDataDesc": "Brak dostępnych danych prognostycznych. Prześlij najnowsze dane o zasobach."
+    }
+  },
+  "table": {
+    "searchPlaceholder": "Wyszukaj produkty...",
+    "btnFilter": "Filtr",
+    "colProduct": "Produkt",
+    "colStock": "Aktualne zapasy",
+    "colDemand": "Oczekiwany popyt (7d)",
+    "colConfidence": "Zaufanie",
+    "colRisk": "Ryzyko odpadów",
+    "action": "Działanie",
+    "btnManage": "Zarządzać",
+    "empty": "Żaden produkt nie pasuje do wybranego filtra.",
+    "emptyDesc": "Prześlij dane dotyczące sprzedaży i zapasów, aby wygenerować prognozy.",
+    "btnUpload": "Prześlij dane",
+    "title": "Tabela ryzyka nadwyżki",
+    "subtitle": "Pokazano {filtered} z {total} produktów",
+    "colCategory": "Kategoria",
+    "colRiskLevel": "Poziom ryzyka",
+    "colRiskScore": "Ocena ryzyka",
+    "colAtRisk": "Wartość ryzyka",
+    "colAction": "Działanie",
+    "createOffer": "Utwórz ofertę",
+    "monitor": "Monitor"
+  }
+}

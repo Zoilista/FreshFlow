@@ -1,0 +1,70 @@
+{
+  "page": {
+    "title": "Einstellungen",
+    "subtitle": "Verwalten Sie Ihr Konto, Ihre Einstellungen und Organisationsdetails.",
+    "tabs": {
+      "profile": "Profil",
+      "preferences": "Präferenzen",
+      "billing": "Abrechnung"
+    },
+    "profile": {
+      "title": "Unternehmensprofil",
+      "desc": "Ihre öffentlichen Geschäftsinformationen sind für Käufer sichtbar.",
+      "nameLabel": "Vollständiger Name",
+      "businessLabel": "Firmenname",
+      "emailLabel": "E-Mail-Adresse",
+      "btnSave": "Änderungen speichern",
+      "btnSaving": "Sparen...",
+      "success": "Profil erfolgreich gespeichert.",
+      "error": "Profil konnte nicht aktualisiert werden.",
+      "btnEdit": "Profil bearbeiten",
+      "btnCancel": "Stornieren",
+      "notSet": "Nicht festgelegt"
+    },
+    "preferences": {
+      "title": "Anwendungseinstellungen",
+      "desc": "Passen Sie Ihr Erlebnis individuell an.",
+      "languageLabel": "Sprache",
+      "currencyLabel": "Währung",
+      "btnSave": "Einstellungen speichern"
+    },
+    "header": {
+      "title": "Einstellungen",
+      "subtitle": "Verwalten Sie Ihr Unternehmensprofil, Benachrichtigungen und Prognosepräferenzen."
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "on": "AN",
+      "off": "AUS",
+      "highRiskAlerts": "E-Mail-Benachrichtigungen für überschüssige Artikel mit hohem Risiko",
+      "weeklySummary": "Wöchentliche E-Mail mit Zusammenfassung der Auswirkungen",
+      "buyerResponses": "Benachrichtigungen über neue Käuferantworten",
+      "leaderboardUpdates": "Aktualisierungen der Bestenliste",
+      "competitionReminders": "Monatliche Wettbewerbserinnerungen"
+    },
+    "forecastSettings": {
+      "title": "Prognoseeinstellungen",
+      "periodLabel": "Prognosezeitraum",
+      "riskLabel": "Hoher Risikoschwellenwert",
+      "riskDesc1": "Produkte mit Überschussrisiko oben",
+      "riskDesc2": "% wird markiert als",
+      "riskDesc3": "HOCH",
+      "currencyLabel": "Währung"
+    },
+    "danger": {
+      "title": "Gefahrenzone",
+      "desc": "Diese Aktionen sind dauerhaft und können nicht rückgängig gemacht werden.",
+      "btnDeleteData": "Alle hochgeladenen Daten löschen",
+      "btnDeleteAccount": "Konto löschen",
+      "confirmDelete": "Sind Sie sicher, dass Sie alle hochgeladenen Daten löschen möchten? Dies kann nicht rückgängig gemacht werden."
+    },
+    "fields": {
+      "full_name": "Vollständiger Name",
+      "business_name": "Firmenname",
+      "business_type": "Geschäftstyp",
+      "city": "Stadt",
+      "country": "Land",
+      "email": "Kontakt-E-Mail"
+    }
+  }
+}

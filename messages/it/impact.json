@@ -1,0 +1,26 @@
+{
+  "page": {
+    "title": "Rapporto sull'impatto",
+    "subtitle": "Tieni traccia dell'impatto ambientale e finanziario dei tuoi sforzi di riduzione dei rifiuti.",
+    "stats": {
+      "wastePrevented": "Prevenzione dei rifiuti",
+      "revenueSaved": "Entrate risparmiate",
+      "co2Avoided": "CO₂ evitata"
+    },
+    "chart": {
+      "title": "Tendenze dell'impatto ambientale",
+      "wasteLabel": "Rifiuti evitati (kg)",
+      "co2Label": "CO₂ evitata (kg)",
+      "month": "Mese"
+    },
+    "details": {
+      "title": "Ripartizione mensile",
+      "colPeriod": "Periodo",
+      "colWaste": "Prevenzione dei rifiuti",
+      "colRevenue": "Entrate risparmiate",
+      "colCO2": "CO₂ evitata",
+      "empty": "Nessun dato sull'impatto ancora disponibile.",
+      "emptyDesc": "Le metriche del tuo impatto verranno visualizzate qui una volta che inizierai a prevenire gli sprechi."
+    }
+  }
+}

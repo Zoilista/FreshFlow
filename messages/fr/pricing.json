@@ -1,0 +1,31 @@
+{
+  "page": {
+    "title": "Une tarification simple et transparente",
+    "subtitle": "Commencez à prévenir le gaspillage dès aujourd’hui. Pas de frais cachés, annulez à tout moment.",
+    "monthly": "Mensuel",
+    "annually": "Annuellement",
+    "save20": "Économisez 20 %",
+    "getStarted": "Commencer",
+    "contactSales": "Contacter le service commercial",
+    "starter": {
+      "name": "Démarreur",
+      "desc": "Parfait pour les restaurants à emplacement unique et les petits détaillants.",
+      "price": "49",
+      "priceAnnual": "39",
+      "f1": "Jusqu'à 500 produits suivis",
+      "f2": "Prévision de la demande de base",
+      "f3": "Alertes excédentaires par courrier électronique",
+      "f4": "Prise en charge standard"
+    },
+    "pro": {
+      "name": "Professionnel",
+      "desc": "Pour les grossistes occupés et les entreprises multi-sites.",
+      "price": "99",
+      "priceAnnual": "79",
+      "f1": "Produits suivis en illimité",
+      "f2": "Prévisions avancées de l'IA",
+      "f3": "Offres B2B automatisées",
+      "f4": "Assistance prioritaire"
+    }
+  }
+}

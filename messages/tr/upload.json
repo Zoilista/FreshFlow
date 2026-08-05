@@ -1,0 +1,22 @@
+{
+  "page": {
+    "title": "Envanter Verilerini Yükle",
+    "subtitle": "Yeni tahminler oluşturmak için en son satış ve stok verilerinizi yükleyin.",
+    "btnDownloadTemplate": "CSV Şablonunu İndirin",
+    "uploadBox": {
+      "title": "Yüklemek için tıklayın",
+      "desc": "veya sürükleyip bırakın",
+      "formats": "CSV veya Excel (maks. 10MB)",
+      "uploading": "Yükleniyor ve Analiz Ediliyor...",
+      "processing": "Veriler işleniyor...",
+      "success": "Yükleme başarılı!"
+    },
+    "validation": {
+      "title": "Veri Doğrulama",
+      "row": "Satır {row}",
+      "rowsValid": "{count} satırlar geçerli",
+      "errorsFound": "{count} hata bulundu",
+      "noErrors": "Mükemmel! Verileriniz işlenmeye hazır."
+    }
+  }
+}

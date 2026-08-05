@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "product": "Produit",
+    "pricing": "Tarification",
+    "login": "Connexion",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "NOUVEAU : Gestion des surplus par l'IA",
+    "title1": "Arrêtez le gaspillage alimentaire frais",
+    "title2": "Avant qu'il ne se produise",
+    "subtitle": "Rejoignez des centaines d'entreprises alimentaires indépendantes utilisant l'IA pour prévoir avec précision la demande, éviter les surcommandes et transformer les stocks excédentaires en revenus récupérés.",
+    "cta": "Commencez votre essai gratuit",
+    "demo": "Réserver une démo"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour gérer une opération zéro déchet",
+    "subtitle": "Conçu pour les grossistes indépendants, les détaillants et les restaurants.",
+    "f1Title": "Prévision de la demande",
+    "f1Desc": "Importez votre historique de ventes et laissez notre IA prédire exactement la quantité d'aliments frais dont vous avez besoin pour les 7 prochains jours.",
+    "f2Title": "Alertes de surplus",
+    "f2Desc": "Soyez averti avant que les articles n'expirent. Nous identifions les stocks à haut risque afin que vous puissiez agir tôt.",
+    "f3Title": "Offres automatisées",
+    "f3Desc": "Transformez les surplus en revenus en créant instantanément des offres à prix réduit pour vos acheteurs B2B ou des associations caritatives locales."
+  },
+  "footer": {
+    "copyright": "© 2026 FreshFlow. Tous droits réservés.",
+    "terms": "Conditions de service",
+    "privacy": "Politique de confidentialité"
+  }
+}
